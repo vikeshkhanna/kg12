@@ -1,0 +1,12 @@
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\Bin\Debug\ApplicationIcon.png
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\Bin\Debug\Background.png
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\Bin\Debug\WorkoutHelper.dll
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\Bin\Debug\WorkoutHelper.pdb
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\Bin\Debug\AppManifest.xaml
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\Bin\Debug\WorkoutHelper.xap
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\obj\Debug\App.g.i.cs
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\obj\Debug\MainPage.g.i.cs
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\obj\Debug\WorkoutHelper.g.resources
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\obj\Debug\WorkoutHelper.dll
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\obj\Debug\WorkoutHelper.pdb
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\obj\Debug\XapCacheFile.xml
