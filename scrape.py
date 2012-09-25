@@ -24,7 +24,7 @@ for day in range(1,MAX_DAYS+1):
 		head = soup.find("div",{"class":"workout-header-blue"}).parent
 		lis = head.find_all("li")
 		
-				
+		f.write("<exercises>")
 		for item in lis:
 			exercise = item.h4.a.text
 			f.write("<exercise>")
@@ -40,9 +40,11 @@ for day in range(1,MAX_DAYS+1):
 			for i in range(len(images)):
 				filename = exercise.lower().replace(" ","_") + "_" + str(i) + ".jpg";
 				outpath = os.path.join(os.path.join(os.getcwd(), "pics"), filename)
-				urllib.urlretrieve(images[i]["src"], outpath)
+				#urllib.urlretrieve(images[i]["src"], outpath)
 				print("Images saved to " + filename)
-				
+		
+		f.write("</exercises>")
+		
 			#print exercise, description
 	except:
 			print("Exception occured. Ignoring")

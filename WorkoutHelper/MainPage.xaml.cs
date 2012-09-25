@@ -23,6 +23,8 @@ namespace WorkoutHelper
 {
     public partial class MainPage : PhoneApplicationPage, INotifyPropertyChanged
     {
+        private WorkoutContext workoutDB;
+
         // Constructor
         public MainPage()
         {
@@ -32,12 +34,88 @@ namespace WorkoutHelper
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             XDocument xdoc = XDocument.Load("days.xml");
+            XElement root = xdoc.Root;
 
-            foreach (XElement element in xdoc.Descendants())
-            { 
-                
+            //Database
+            this.workoutDB = new WorkoutContext(WorkoutContext.DBConnectionString);
+
+            try
+            {
+                this.workoutDB.Exercises.DeleteAllOnSubmit(this.workoutDB.Exercises);
+            }
+            catch(Exception ex)
+            {
+            
             }
 
+            try
+            {
+                this.workoutDB.Days.DeleteAllOnSubmit(this.workoutDB.Days);
+            }
+            catch (Exception ex)
+            { 
+            
+            }
+            
+            this.workoutDB.SubmitChanges();
+         
+            // Gather all exercises only
+            // For each day
+            foreach (XElement element in root.Nodes())
+            { 
+                //Day day = new Day();
+                //day.Num = Convert.ToInt32((element.FirstNode as XElement).Value);
+
+                if (element.Elements().Count() == 2)
+                {
+                    XElement exerciseRoot = element.LastNode as XElement;
+                    
+                    // For each exercise 
+                    foreach (XElement exec in exerciseRoot.Nodes())
+                    {
+                        Exercise exercise = new Exercise();
+                        exercise.Name = (exec.FirstNode as XElement).Value.ToString();
+                        
+                        try
+                        {
+                            this.workoutDB.Exercises.First(ex => ex.Name == exercise.Name);
+                        }
+                        catch (Exception ex)
+                        {
+                            this.workoutDB.Exercises.InsertOnSubmit(exercise);
+                            Console.WriteLine(ex);
+                        }
+                        
+                        this.workoutDB.SubmitChanges();
+                    }
+                }
+            }
+
+           
+            List<Exercise> exercisesInDB = (from Exercise exercise in workoutDB.Exercises
+                                            select exercise).ToList();
+
+            // Days
+            foreach (XElement element in root.Nodes())
+            {
+                Day day = new Day();
+                day.Num = Convert.ToInt32((element.FirstNode as XElement).Value);
+
+                // Exercises are also present
+                if (element.Elements().Count() == 2)
+                {
+                    XElement exerciseRoot = element.LastNode as XElement;
+                    
+                    foreach (XElement exec in exerciseRoot.Nodes())
+                    {
+                        string exerciseName = (exec.FirstNode as XElement).Value.ToString();
+                        Exercise exercise =  exercisesInDB.Single(ex => ex.Name == exerciseName);
+                        
+                    }
+
+                    //this.workoutDB.Exercises.InsertOnSubmit(exercise);
+                }
+            }
             // Call the base method.
             base.OnNavigatedTo(e);
         }
@@ -256,7 +334,8 @@ namespace WorkoutHelper
         { }
 
         // Specify a single table for the to-do items.
-        public Table<Exercise> Exercise;
+        public Table<Exercise> Exercises;
+        public Table<Day> Days;
     }
     
 }
