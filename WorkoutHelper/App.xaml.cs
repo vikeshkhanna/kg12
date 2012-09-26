@@ -60,14 +60,14 @@ namespace WorkoutHelper
             // Create database
             using (WorkoutContext db = new WorkoutContext(WorkoutContext.DBConnectionString))
             {
-                if (db.DatabaseExists() == false)
+                if (db.DatabaseExists())
                 {
-                    //Create the database
-                    db.CreateDatabase();
+                    db.DeleteDatabase();
                 }
+                
+                //Create the database
+                db.CreateDatabase();
             }
-
-
         }
 
         // Code to execute when the application is launching (eg, from Start)

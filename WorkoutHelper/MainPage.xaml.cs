@@ -17,6 +17,7 @@ using System.Data.Linq.Mapping;
 using System.Collections.ObjectModel;
 using System.Xml;
 using System.Xml.Linq;
+using System.Text.RegularExpressions;
 
 
 namespace WorkoutHelper
@@ -39,26 +40,6 @@ namespace WorkoutHelper
             //Database
             this.workoutDB = new WorkoutContext(WorkoutContext.DBConnectionString);
 
-            try
-            {
-                this.workoutDB.Exercises.DeleteAllOnSubmit(this.workoutDB.Exercises);
-            }
-            catch(Exception ex)
-            {
-            
-            }
-
-            try
-            {
-                this.workoutDB.Days.DeleteAllOnSubmit(this.workoutDB.Days);
-            }
-            catch (Exception ex)
-            { 
-            
-            }
-            
-            this.workoutDB.SubmitChanges();
-         
             // Gather all exercises only
             // For each day
             foreach (XElement element in root.Nodes())
@@ -98,8 +79,7 @@ namespace WorkoutHelper
             // Days
             foreach (XElement element in root.Nodes())
             {
-                Day day = new Day();
-                day.Num = Convert.ToInt32((element.FirstNode as XElement).Value);
+                int num = Convert.ToInt32((element.FirstNode as XElement).Value);
 
                 // Exercises are also present
                 if (element.Elements().Count() == 2)
@@ -108,14 +88,21 @@ namespace WorkoutHelper
                     
                     foreach (XElement exec in exerciseRoot.Nodes())
                     {
+                        Day day = new Day();
+                        day.Num = num;
                         string exerciseName = (exec.FirstNode as XElement).Value.ToString();
                         Exercise exercise =  exercisesInDB.Single(ex => ex.Name == exerciseName);
-                        
-                    }
 
-                    //this.workoutDB.Exercises.InsertOnSubmit(exercise);
+                        day.ExerciseId = exercise.ExerciseId;
+                        day.Description = (exec.LastNode as XElement).Value.ToString().Trim(new char[] {'\n',' '}); ;
+                        Regex rgx = new Regex("\n\\s*");
+                        day.Description = rgx.Replace( day.Description, "\n");
+                        this.workoutDB.Days.InsertOnSubmit(day);
+                    }
                 }
             }
+
+            this.workoutDB.SubmitChanges();
             // Call the base method.
             base.OnNavigatedTo(e);
         }
