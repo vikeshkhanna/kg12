@@ -1,0 +1,17 @@
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\ApplicationIcon.png
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Background.png
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Workout.dll
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Workout.pdb
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\AppManifest.xaml
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Workout.xap
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\App.g.i.cs
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\MainPage.g.i.cs
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\Workout.g.resources
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\Workout.dll
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\Workout.pdb
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\XapCacheFile.xml
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\workout.sdf
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\WorkoutHelper.dll
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\WorkoutHelper.pdb

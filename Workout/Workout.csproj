@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BDA5ACC-9B8B-4D54-91DE-10834B47194A}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Workout</RootNamespace>
+    <AssemblyName>Workout</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Workout.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Workout.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="system.data.linq" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="WorkoutHelper">
+      <HintPath>..\WorkoutHelper\obj\Debug\WorkoutHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ItemViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <DesignData Include="SampleData\MainViewModelSampleData.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </DesignData>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="workout.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="PanoramaBackground.png" />
+    <Resource Include="Media\45_degree_calf_press_on_the_leg_press_machine_0.jpg" />
+    <Resource Include="Media\45_degree_calf_press_on_the_leg_press_machine_1.jpg" />
+    <Resource Include="Media\barbell_curl_0.jpg" />
+    <Resource Include="Media\barbell_curl_1.jpg" />
+    <Resource Include="Media\barbell_shrug_0.jpg" />
+    <Resource Include="Media\barbell_shrug_1.jpg" />
+    <Resource Include="Media\barbell_squat_0.jpg" />
+    <Resource Include="Media\barbell_squat_1.jpg" />
+    <Resource Include="Media\bench_dips_0.jpg" />
+    <Resource Include="Media\bench_dips_1.jpg" />
+    <Resource Include="Media\bent-arm_barbell_pullover_0.jpg" />
+    <Resource Include="Media\bent-arm_barbell_pullover_1.jpg" />
+    <Resource Include="Media\bent-arm_dumbbell_pullover_0.jpg" />
+    <Resource Include="Media\bent-arm_dumbbell_pullover_1.jpg" />
+    <Resource Include="Media\bent_over_barbell_row_0.jpg" />
+    <Resource Include="Media\bent_over_barbell_row_1.jpg" />
+    <Resource Include="Media\bent_over_two-dumbbell_row_0.jpg" />
+    <Resource Include="Media\bent_over_two-dumbbell_row_1.jpg" />
+    <Resource Include="Media\box_squat_0.jpg" />
+    <Resource Include="Media\box_squat_1.jpg" />
+    <Resource Include="Media\butterfly_0.jpg" />
+    <Resource Include="Media\butterfly_1.jpg" />
+    <Resource Include="Media\cable_crossover_0.jpg" />
+    <Resource Include="Media\cable_crossover_1.jpg" />
+    <Resource Include="Media\cable_curls_0.jpg" />
+    <Resource Include="Media\cable_curls_1.jpg" />
+    <Resource Include="Media\cable_hammer_curls_-_rope_attachment_0.jpg" />
+    <Resource Include="Media\cable_hammer_curls_-_rope_attachment_1.jpg" />
+    <Resource Include="Media\cable_rope_overhead_triceps_extension_0.jpg" />
+    <Resource Include="Media\cable_rope_overhead_triceps_extension_1.jpg" />
+    <Resource Include="Media\cable_seated_lateral_raise_0.jpg" />
+    <Resource Include="Media\cable_seated_lateral_raise_1.jpg" />
+    <Resource Include="Media\calf_press_on_the_leg_press_machine_0.jpg" />
+    <Resource Include="Media\calf_press_on_the_leg_press_machine_1.jpg" />
+    <Resource Include="Media\cardio_0.jpg" />
+    <Resource Include="Media\cardio_1.jpg" />
+    <Resource Include="Media\chin-up_0.jpg" />
+    <Resource Include="Media\chin-up_1.jpg" />
+    <Resource Include="Media\close-grip_barbell_bench_press_0.jpg" />
+    <Resource Include="Media\close-grip_barbell_bench_press_1.jpg" />
+    <Resource Include="Media\concentration_curls_0.jpg" />
+    <Resource Include="Media\concentration_curls_1.jpg" />
+    <Resource Include="Media\decline_barbell_bench_press_0.jpg" />
+    <Resource Include="Media\decline_barbell_bench_press_1.jpg" />
+    <Resource Include="Media\decline_crunch_0.jpg" />
+    <Resource Include="Media\decline_crunch_1.jpg" />
+    <Resource Include="Media\decline_reverse_crunch_0.jpg" />
+    <Resource Include="Media\decline_reverse_crunch_1.jpg" />
+    <Resource Include="Media\dips_-_triceps_version_0.jpg" />
+    <Resource Include="Media\dips_-_triceps_version_1.jpg" />
+    <Resource Include="Media\dip_machine_0.jpg" />
+    <Resource Include="Media\dip_machine_1.jpg" />
+    <Resource Include="Media\donkey_calf_raises_0.jpg" />
+    <Resource Include="Media\donkey_calf_raises_1.jpg" />
+    <Resource Include="Media\dumbbell_alternate_bicep_curl_0.jpg" />
+    <Resource Include="Media\dumbbell_alternate_bicep_curl_1.jpg" />
+    <Resource Include="Media\dumbbell_bench_press_0.jpg" />
+    <Resource Include="Media\dumbbell_bench_press_1.jpg" />
+    <Resource Include="Media\dumbbell_lunges_0.jpg" />
+    <Resource Include="Media\dumbbell_lunges_1.jpg" />
+    <Resource Include="Media\dumbbell_lying_rear_lateral_raise_0.jpg" />
+    <Resource Include="Media\dumbbell_lying_rear_lateral_raise_1.jpg" />
+    <Resource Include="Media\dumbbell_one-arm_shoulder_press_0.jpg" />
+    <Resource Include="Media\dumbbell_one-arm_shoulder_press_1.jpg" />
+    <Resource Include="Media\dumbbell_shoulder_press_0.jpg" />
+    <Resource Include="Media\dumbbell_shoulder_press_1.jpg" />
+    <Resource Include="Media\dumbbell_shrug_0.jpg" />
+    <Resource Include="Media\dumbbell_shrug_1.jpg" />
+    <Resource Include="Media\ez-bar_curl_0.jpg" />
+    <Resource Include="Media\ez-bar_curl_1.jpg" />
+    <Resource Include="Media\flat_bench_flyes_0.jpg" />
+    <Resource Include="Media\flat_bench_flyes_1.jpg" />
+    <Resource Include="Media\flat_dumbbell_press_0.jpg" />
+    <Resource Include="Media\flat_dumbbell_press_1.jpg" />
+    <Resource Include="Media\front_dumbbell_raise_0.jpg" />
+    <Resource Include="Media\front_dumbbell_raise_1.jpg" />
+    <Resource Include="Media\front_plate_raise_0.jpg" />
+    <Resource Include="Media\front_plate_raise_1.jpg" />
+    <Resource Include="Media\hack_squat_0.jpg" />
+    <Resource Include="Media\hack_squat_1.jpg" />
+    <Resource Include="Media\hammer_curls_0.jpg" />
+    <Resource Include="Media\hammer_curls_1.jpg" />
+    <Resource Include="Media\hammer_incline_shoulder_press_0.jpg" />
+    <Resource Include="Media\hammer_incline_shoulder_press_1.jpg" />
+    <Resource Include="Media\hamstring_curls_0.jpg" />
+    <Resource Include="Media\hamstring_curls_1.jpg" />
+    <Resource Include="Media\hamstring_curl_0.jpg" />
+    <Resource Include="Media\hamstring_curl_1.jpg" />
+    <Resource Include="Media\hanging_leg_raise_0.jpg" />
+    <Resource Include="Media\hanging_leg_raise_1.jpg" />
+    <Resource Include="Media\head_smackers_0.jpg" />
+    <Resource Include="Media\head_smackers_1.jpg" />
+    <Resource Include="Media\hyperextensions_%28back_extensions%29_0.jpg" />
+    <Resource Include="Media\hyperextensions_%28back_extensions%29_1.jpg" />
+    <Resource Include="Media\incline_cable_flyes_0.jpg" />
+    <Resource Include="Media\incline_cable_flyes_1.jpg" />
+    <Resource Include="Media\incline_dumbbell_curl_0.jpg" />
+    <Resource Include="Media\incline_dumbbell_curl_1.jpg" />
+    <Resource Include="Media\incline_dumbbell_flyes_-_with_a_twist_0.jpg" />
+    <Resource Include="Media\incline_dumbbell_flyes_-_with_a_twist_1.jpg" />
+    <Resource Include="Media\incline_dumbbell_flyes_0.jpg" />
+    <Resource Include="Media\incline_dumbbell_flyes_1.jpg" />
+    <Resource Include="Media\incline_dumbbell_press_0.jpg" />
+    <Resource Include="Media\incline_dumbbell_press_1.jpg" />
+    <Resource Include="Media\incline_flyes_0.jpg" />
+    <Resource Include="Media\incline_flyes_1.jpg" />
+    <Resource Include="Media\incline_lying_leg_raise_0.jpg" />
+    <Resource Include="Media\incline_lying_leg_raise_1.jpg" />
+    <Resource Include="Media\incline_reverse_crunch_0.jpg" />
+    <Resource Include="Media\incline_reverse_crunch_1.jpg" />
+    <Resource Include="Media\leg_extensions_0.jpg" />
+    <Resource Include="Media\leg_extensions_1.jpg" />
+    <Resource Include="Media\leg_press_0.jpg" />
+    <Resource Include="Media\leg_press_1.jpg" />
+    <Resource Include="Media\lying_cable_curl_0.jpg" />
+    <Resource Include="Media\lying_cable_curl_1.jpg" />
+    <Resource Include="Media\lying_cable_extensions_0.jpg" />
+    <Resource Include="Media\lying_cable_extensions_1.jpg" />
+    <Resource Include="Media\lying_close-grip_barbell_triceps_extension_behind_the_head_0.jpg" />
+    <Resource Include="Media\lying_close-grip_barbell_triceps_extension_behind_the_head_1.jpg" />
+    <Resource Include="Media\lying_dumbbell_tricep_extension_0.jpg" />
+    <Resource Include="Media\lying_dumbbell_tricep_extension_1.jpg" />
+    <Resource Include="Media\lying_hamstring_curl_0.jpg" />
+    <Resource Include="Media\lying_hamstring_curl_1.jpg" />
+    <Resource Include="Media\lying_rear_delt_raise_0.jpg" />
+    <Resource Include="Media\lying_rear_delt_raise_1.jpg" />
+    <Resource Include="Media\machine_bench_press_0.jpg" />
+    <Resource Include="Media\machine_bench_press_1.jpg" />
+    <Resource Include="Media\machine_preacher_curls_0.jpg" />
+    <Resource Include="Media\machine_preacher_curls_1.jpg" />
+    <Resource Include="Media\machine_shoulder_%28military%29_press_0.jpg" />
+    <Resource Include="Media\machine_shoulder_%28military%29_press_1.jpg" />
+    <Resource Include="Media\military__press_0.jpg" />
+    <Resource Include="Media\military__press_1.jpg" />
+    <Resource Include="Media\modified_crunches_0.jpg" />
+    <Resource Include="Media\modified_crunches_1.jpg" />
+    <Resource Include="Media\modified_pushups_0.jpg" />
+    <Resource Include="Media\modified_pushups_1.jpg" />
+    <Resource Include="Media\one-arm_dumbbell_row_0.jpg" />
+    <Resource Include="Media\one-arm_dumbbell_row_1.jpg" />
+    <Resource Include="Media\one-arm_incline_lateral_raise_0.jpg" />
+    <Resource Include="Media\one-arm_incline_lateral_raise_1.jpg" />
+    <Resource Include="Media\one_arm_dumbbell_preacher_curl_0.jpg" />
+    <Resource Include="Media\one_arm_dumbbell_preacher_curl_1.jpg" />
+    <Resource Include="Media\overhead_cable_curl_0.jpg" />
+    <Resource Include="Media\overhead_cable_curl_1.jpg" />
+    <Resource Include="Media\overhead_dumbbell_extension_0.jpg" />
+    <Resource Include="Media\overhead_dumbbell_extension_1.jpg" />
+    <Resource Include="Media\partial_barbell_deadlift_0.jpg" />
+    <Resource Include="Media\partial_barbell_deadlift_1.jpg" />
+    <Resource Include="Media\partial_leg_extensions_0.jpg" />
+    <Resource Include="Media\partial_leg_extensions_1.jpg" />
+    <Resource Include="Media\pullups_0.jpg" />
+    <Resource Include="Media\pullups_1.jpg" />
+    <Resource Include="Media\pushups_%28close_and_wide_hand_positions%29_0.jpg" />
+    <Resource Include="Media\pushups_%28close_and_wide_hand_positions%29_1.jpg" />
+    <Resource Include="Media\rack_deadlifts_0.jpg" />
+    <Resource Include="Media\rack_deadlifts_1.jpg" />
+    <Resource Include="Media\rack_squat_0.jpg" />
+    <Resource Include="Media\rack_squat_1.jpg" />
+    <Resource Include="Media\reverse-grip_hammer_pulldowns_0.jpg" />
+    <Resource Include="Media\reverse-grip_hammer_pulldowns_1.jpg" />
+    <Resource Include="Media\reverse-grip_pulldowns_0.jpg" />
+    <Resource Include="Media\reverse-grip_pulldowns_1.jpg" />
+    <Resource Include="Media\reverse_cable_pushdowns_0.jpg" />
+    <Resource Include="Media\reverse_cable_pushdowns_1.jpg" />
+    <Resource Include="Media\reverse_flyes_0.jpg" />
+    <Resource Include="Media\reverse_flyes_1.jpg" />
+    <Resource Include="Media\reverse_grip_bent-over_rows_0.jpg" />
+    <Resource Include="Media\reverse_grip_bent-over_rows_1.jpg" />
+    <Resource Include="Media\reverse_grip_cable_pulldowns_0.jpg" />
+    <Resource Include="Media\reverse_grip_cable_pulldowns_1.jpg" />
+    <Resource Include="Media\reverse_grip_hammer_pulldowns_0.jpg" />
+    <Resource Include="Media\reverse_grip_hammer_pulldowns_1.jpg" />
+    <Resource Include="Media\reverse_grip_pulldowns_0.jpg" />
+    <Resource Include="Media\reverse_grip_pulldowns_1.jpg" />
+    <Resource Include="Media\reverse_machine_flyes_0.jpg" />
+    <Resource Include="Media\reverse_machine_flyes_1.jpg" />
+    <Resource Include="Media\rockers_0.jpg" />
+    <Resource Include="Media\rockers_1.jpg" />
+    <Resource Include="Media\rockers_2.jpg" />
+    <Resource Include="Media\romanian_deadlift_0.jpg" />
+    <Resource Include="Media\romanian_deadlift_1.jpg" />
+    <Resource Include="Media\rope_extension_0.jpg" />
+    <Resource Include="Media\rope_extension_1.jpg" />
+    <Resource Include="Media\seated_barbell_military_press_0.jpg" />
+    <Resource Include="Media\seated_barbell_military_press_1.jpg" />
+    <Resource Include="Media\seated_barbell_press_behind_neck_0.jpg" />
+    <Resource Include="Media\seated_barbell_press_behind_neck_1.jpg" />
+    <Resource Include="Media\seated_barbell_twist_0.jpg" />
+    <Resource Include="Media\seated_barbell_twist_1.jpg" />
+    <Resource Include="Media\seated_bent-over_rear_delt_raise_0.jpg" />
+    <Resource Include="Media\seated_bent-over_rear_delt_raise_1.jpg" />
+    <Resource Include="Media\seated_cable_rows_0.jpg" />
+    <Resource Include="Media\seated_cable_rows_1.jpg" />
+    <Resource Include="Media\seated_calf_raise_0.jpg" />
+    <Resource Include="Media\seated_calf_raise_1.jpg" />
+    <Resource Include="Media\seated_leg_curl_0.jpg" />
+    <Resource Include="Media\seated_leg_curl_1.jpg" />
+    <Resource Include="Media\seated_side_lateral_raise_0.jpg" />
+    <Resource Include="Media\seated_side_lateral_raise_1.jpg" />
+    <Resource Include="Media\seated_triceps_press_0.jpg" />
+    <Resource Include="Media\seated_triceps_press_1.jpg" />
+    <Resource Include="Media\side_lateral_raise_0.jpg" />
+    <Resource Include="Media\side_lateral_raise_1.jpg" />
+    <Resource Include="Media\sit-up_0.jpg" />
+    <Resource Include="Media\sit-up_1.jpg" />
+    <Resource Include="Media\skullcrushers_0.jpg" />
+    <Resource Include="Media\skullcrushers_1.jpg" />
+    <Resource Include="Media\skull_crushers_0.jpg" />
+    <Resource Include="Media\skull_crushers_1.jpg" />
+    <Resource Include="Media\smith_machine_bent_over_row_0.jpg" />
+    <Resource Include="Media\smith_machine_bent_over_row_1.jpg" />
+    <Resource Include="Media\smith_machine_close-grip_bench_press_0.jpg" />
+    <Resource Include="Media\smith_machine_close-grip_bench_press_1.jpg" />
+    <Resource Include="Media\smith_machine_overhead_shoulder_press_%28behind_the_neck%29_0.jpg" />
+    <Resource Include="Media\smith_machine_overhead_shoulder_press_%28behind_the_neck%29_1.jpg" />
+    <Resource Include="Media\smith_machine_overhead_shoulder_press_0.jpg" />
+    <Resource Include="Media\smith_machine_overhead_shoulder_press_1.jpg" />
+    <Resource Include="Media\smith_machine_shrug_0.jpg" />
+    <Resource Include="Media\smith_machine_shrug_1.jpg" />
+    <Resource Include="Media\smith_machine_stiff-legged_deadlift_0.jpg" />
+    <Resource Include="Media\smith_machine_stiff-legged_deadlift_1.jpg" />
+    <Resource Include="Media\spider_curl_0.jpg" />
+    <Resource Include="Media\spider_curl_1.jpg" />
+    <Resource Include="Media\standing_barbell_twist_0.jpg" />
+    <Resource Include="Media\standing_barbell_twist_1.jpg" />
+    <Resource Include="Media\standing_biceps_cable_curl_0.jpg" />
+    <Resource Include="Media\standing_biceps_cable_curl_1.jpg" />
+    <Resource Include="Media\standing_calf_raises_0.jpg" />
+    <Resource Include="Media\standing_calf_raises_1.jpg" />
+    <Resource Include="Media\standing_leg_curl_0.jpg" />
+    <Resource Include="Media\standing_leg_curl_1.jpg" />
+    <Resource Include="Media\standing_low-pulley_deltoid_raise_0.jpg" />
+    <Resource Include="Media\standing_low-pulley_deltoid_raise_1.jpg" />
+    <Resource Include="Media\stiff-legged_barbell_deadlift_0.jpg" />
+    <Resource Include="Media\stiff-legged_barbell_deadlift_1.jpg" />
+    <Resource Include="Media\stiff-legged_dumbbell_deadlift_0.jpg" />
+    <Resource Include="Media\stiff-legged_dumbbell_deadlift_1.jpg" />
+    <Resource Include="Media\straight-arm_dumbbell_pullover_0.jpg" />
+    <Resource Include="Media\straight-arm_dumbbell_pullover_1.jpg" />
+    <Resource Include="Media\straight-arm_pulldown_0.jpg" />
+    <Resource Include="Media\straight-arm_pulldown_1.jpg" />
+    <Resource Include="Media\straight-arm_pullover_0.jpg" />
+    <Resource Include="Media\straight-arm_pullover_1.jpg" />
+    <Resource Include="Media\triceps_pushdown_-_rope_attachment_0.jpg" />
+    <Resource Include="Media\triceps_pushdown_-_rope_attachment_1.jpg" />
+    <Resource Include="Media\triceps_pushdown_-_v-bar_attachment_0.jpg" />
+    <Resource Include="Media\triceps_pushdown_-_v-bar_attachment_1.jpg" />
+    <Resource Include="Media\triceps_pushdown_0.jpg" />
+    <Resource Include="Media\triceps_pushdown_1.jpg" />
+    <Resource Include="Media\tricep_cable_pushdowns_0.jpg" />
+    <Resource Include="Media\tricep_cable_pushdowns_1.jpg" />
+    <Resource Include="Media\underhand_cable_pulldowns_0.jpg" />
+    <Resource Include="Media\underhand_cable_pulldowns_1.jpg" />
+    <Resource Include="Media\unilateral_leg_extensions_0.jpg" />
+    <Resource Include="Media\unilateral_leg_extensions_1.jpg" />
+    <Resource Include="Media\upright_barbell_row_%28medium_grip%29_0.jpg" />
+    <Resource Include="Media\upright_barbell_row_%28medium_grip%29_1.jpg" />
+    <Resource Include="Media\upright_barbell_row_%28narrow_grip%29_0.jpg" />
+    <Resource Include="Media\upright_barbell_row_%28narrow_grip%29_1.jpg" />
+    <Resource Include="Media\upright_barbell_row_%28wide_grip%29_0.jpg" />
+    <Resource Include="Media\upright_barbell_row_%28wide_grip%29_1.jpg" />
+    <Resource Include="Media\upright_barbell_row_0.jpg" />
+    <Resource Include="Media\upright_barbell_row_1.jpg" />
+    <Resource Include="Media\v-bar_pullup_0.jpg" />
+    <Resource Include="Media\v-bar_pullup_1.jpg" />
+    <Resource Include="Media\walking_lunges_0.jpg" />
+    <Resource Include="Media\walking_lunges_1.jpg" />
+    <Resource Include="Media\weighted_sit-ups_0.jpg" />
+    <Resource Include="Media\weighted_sit-ups_1.jpg" />
+    <Resource Include="Media\weighted_sit-up_0.jpg" />
+    <Resource Include="Media\weighted_sit-up_1.jpg" />
+    <Resource Include="Media\wide-grip_lat_pulldown_0.jpg" />
+    <Resource Include="Media\wide-grip_lat_pulldown_1.jpg" />
+    <Resource Include="Media\wide-grip_pulldown_behind_the_neck_0.jpg" />
+    <Resource Include="Media\wide-grip_pulldown_behind_the_neck_1.jpg" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>
