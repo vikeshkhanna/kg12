@@ -14,7 +14,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
     shell:SystemTray.IsVisible="False">
-
+ 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
  
@@ -31,24 +31,25 @@
                         <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
-                    
-                    <TextBlock Grid.Row="0" Text="{Binding Workout}" Margin="10,10,10,10" FontSize="22" />
+
+                    <TextBlock Grid.Row="0" Text="{Binding Workout}" Margin="10,10,10,10" Style="{StaticResource PhoneTextLargeStyle}" />
                     <!--Double line list with text wrapping-->
                     <ListBox Grid.Row="1" Margin="0,0,-12,0" ItemsSource="{Binding Items}" Height="Auto">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Grid Margin="0,0,0,10">
+                                <Grid Margin="0,0,0, 20">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"></RowDefinition>
                                         <RowDefinition Height="Auto"></RowDefinition>
                                     </Grid.RowDefinitions>
-                                    <TextBlock Grid.Row="0" Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
+                                    <TextBlock Grid.Row="0" Text="{Binding ExerciseName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
 
-                                    <StackPanel Grid.Row="1" Orientation="Horizontal" Width="432">
-                                        <Rectangle Height="53" Width="53" Fill="#FFE5001b" Margin="12,0,1,0"/>
-                                        <Rectangle Height="53" Width="53" Fill="#FFE5001b" Margin="12,0,3,0"/>
-                                        <TextBlock Text="{Binding LineTwo}" TextWrapping="Wrap"  Margin="12,0,12,0" 
-                                                    MaxWidth="270" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                    <StackPanel Grid.Row="1" Orientation="Horizontal" Width="432" VerticalAlignment="Top">
+                                        <Image Height="53" Width="53" Source="{Binding WorkoutImage1}" Margin="0,0,5,0" VerticalAlignment="Top" />
+                                        <Image Height="53" Width="53" Source="{Binding WorkoutImage2}" Margin="0,0,3,0" VerticalAlignment="Top" />
+                                        
+                                        <TextBlock Text="{Binding ExerciseDescription}" TextWrapping="Wrap"  Margin="10,0,12,0" FontSize="18"
+                                                    MaxWidth="270" Style="{StaticResource PhoneTextSubtleStyle}" VerticalAlignment="Top"/>
                                     </StackPanel>
                                 </Grid>
                             </DataTemplate>

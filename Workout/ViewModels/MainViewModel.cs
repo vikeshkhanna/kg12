@@ -94,7 +94,11 @@ namespace Workout
             foreach(DayExercise dayExercise in dayExercises)
             {
                 Exercise exercise = this.workoutDB.Exercises.Single(ex => ex.ExerciseId == dayExercise.ExerciseId);
-                this.Items.Add(new ItemViewModel() { LineOne = exercise.Name, LineTwo = dayExercise.Description, LineThree = "Lorem Ipsum" });
+                
+                this.Items.Add(new ItemViewModel() {
+                    WorkoutImage1 = "Media/" + exercise.Name.ToLower().Replace(" ", "_") + "_0.jpg",
+                    WorkoutImage2 = "Media/" + exercise.Name.ToLower().Replace(" ", "_") + "_1.jpg", 
+                    ExerciseName = exercise.Name, ExerciseDescription = dayExercise.Description, LineThree = "Lorem Ipsum" });
                 // Sample data; replace with real data
             }
             

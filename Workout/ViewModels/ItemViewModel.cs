@@ -11,49 +11,55 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using WorkoutHelper;
+using System.Windows.Data;
+using System.Globalization;
+using System.Windows.Media.Imaging;
 
 namespace Workout
 {
     public class ItemViewModel : INotifyPropertyChanged
     {
-        private string _lineOne;
+        private string exerciseName;
+        private string exerciseDescription;
+        private string workoutImage1;
+        private string workoutImage2;
+
         /// <summary>
         /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
         /// </summary>
         /// <returns></returns>
-        public string LineOne
+        public string ExerciseName
         {
             get
             {
-                return _lineOne;
+                return this.exerciseName;
             }
             set
             {
-                if (value != _lineOne)
+                if (value != this.exerciseName)
                 {
-                    _lineOne = value;
-                    NotifyPropertyChanged("LineOne");
+                    this.exerciseName = value;
+                    NotifyPropertyChanged("ExerciseName");
                 }
             }
         }
 
-        private string _lineTwo;
         /// <summary>
         /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
         /// </summary>
         /// <returns></returns>
-        public string LineTwo
+        public string ExerciseDescription
         {
             get
             {
-                return _lineTwo;
+                return this.exerciseDescription;
             }
             set
             {
-                if (value != _lineTwo)
+                if (value != this.exerciseDescription)
                 {
-                    _lineTwo = value;
-                    NotifyPropertyChanged("LineTwo");
+                    this.exerciseDescription = value;
+                    NotifyPropertyChanged("ExerciseDescription");
                 }
             }
         }
@@ -79,6 +85,38 @@ namespace Workout
             }
         }
 
+        public string WorkoutImage1
+        {
+            get
+            {
+                return this.workoutImage1;
+            }
+            set
+            {
+                if (value != this.workoutImage1)
+                {
+                    this.workoutImage1 = value;
+                    NotifyPropertyChanged("WorkoutImage1");
+                }
+            }
+        }
+
+        public string WorkoutImage2
+        {
+            get
+            {
+                return this.workoutImage2;
+            }
+            set
+            {
+                if (value != this.workoutImage2)
+                {
+                    this.workoutImage2 = value;
+                    NotifyPropertyChanged("WorkoutImage2");
+                }
+            }
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
         private void NotifyPropertyChanged(String propertyName)
         {
@@ -89,4 +127,6 @@ namespace Workout
             }
         }
     }
+
+   
 }

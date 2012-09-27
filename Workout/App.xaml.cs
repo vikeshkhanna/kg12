@@ -12,6 +12,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.Windows.Data;
+using System.Globalization;
+using System.Windows.Media.Imaging;
 
 namespace Workout
 {
@@ -162,5 +165,27 @@ namespace Workout
         }
 
         #endregion
+    }
+
+    public class ImageConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType,
+                              object parameter, CultureInfo culture)
+        {
+            try
+            {
+                return new BitmapImage(new Uri((string)value));
+            }
+            catch
+            {
+                return new BitmapImage();
+            }
+        }
+
+        public object ConvertBack(object value, Type targetType,
+                                  object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
