@@ -99,6 +99,7 @@
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Images\bane.jpg" />
     <Content Include="workout.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

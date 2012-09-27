@@ -7,7 +7,7 @@
     xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728" 
     d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -21,9 +21,12 @@
         <!--Panorama control-->
         <controls:Panorama Title="kris gethin's 12 week">
             <controls:Panorama.Background>
-                <ImageBrush ImageSource="PanoramaBackground.png"/>
+                <ImageBrush ImageSource="Images/bane.jpg"/>
             </controls:Panorama.Background>
- 
+
+            <controls:PanoramaItem Header="progress">
+                
+            </controls:PanoramaItem>
             <!--Panorama item one-->
             <controls:PanoramaItem Header="today">
                 <Grid>
@@ -77,6 +80,20 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
             </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="weight track">
+                
+            </controls:PanoramaItem>
         </controls:Panorama>
     </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" Mode="Minimized" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="settings"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="open today in browser"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
 </phone:PhoneApplicationPage>
