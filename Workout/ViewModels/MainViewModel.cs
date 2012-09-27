@@ -20,6 +20,7 @@ namespace Workout
     public class MainViewModel : INotifyPropertyChanged
     {
         private WorkoutContext workoutDB;
+        private string workout;
 
         public MainViewModel()
         {
@@ -53,6 +54,22 @@ namespace Workout
             }
         }
 
+        public string Workout
+        {
+            get
+            {
+                return this.workout;
+            }
+            set
+            {
+                if (value != this.workout)
+                {
+                    this.workout = value;
+                    NotifyPropertyChanged("Workout");
+                }
+            }
+        }
+
         public bool IsDataLoaded
         {
             get;
@@ -64,17 +81,23 @@ namespace Workout
         /// </summary>
         public void LoadData()
         {
-            List<Day> dayEntries = (from Day day in this.workoutDB.Days
-                              where day.Num == 1
-                              select day).ToList();
+            Day day = (from Day d in this.workoutDB.Days
+                              where d.Num == 1
+                              select d).Single();
 
-            foreach (Day dayEntry in dayEntries)
+            List<DayExercise> dayExercises = (from DayExercise de in this.workoutDB.DayExercises
+                                              where de.DayId == day.DayId
+                                              select de).ToList();
+
+            this.Workout = day.Workout;
+
+            foreach(DayExercise dayExercise in dayExercises)
             {
-                Exercise exercise = this.workoutDB.Exercises.Single(ex => ex.ExerciseId == dayEntry.ExerciseId);
-                this.Items.Add(new ItemViewModel() { LineOne = exercise.Name, LineTwo = dayEntry.Description, LineThree = "Lorem Ipsum" });
+                Exercise exercise = this.workoutDB.Exercises.Single(ex => ex.ExerciseId == dayExercise.ExerciseId);
+                this.Items.Add(new ItemViewModel() { LineOne = exercise.Name, LineTwo = dayExercise.Description, LineThree = "Lorem Ipsum" });
                 // Sample data; replace with real data
             }
-     
+            
             this.IsDataLoaded = true;
         }
 

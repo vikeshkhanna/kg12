@@ -15,3 +15,4 @@ C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workou
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\workout.sdf
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\WorkoutHelper.dll
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\WorkoutHelper.pdb
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\Workout.csprojResolveAssemblyReference.cache

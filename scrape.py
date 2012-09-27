@@ -1,6 +1,7 @@
 import urllib
 import math
 import os
+import re
 from bs4 import BeautifulSoup
 
 MAX_DAYS=84
@@ -21,6 +22,12 @@ for day in range(1,MAX_DAYS+1):
 		html =  site.read()
 		soup = BeautifulSoup(html)
 		
+		f.write("<workout>")
+		workout_element = soup.find("h2", {"class":"article-sub-header"}).parent
+		workout_name = workout_element.text.split("-")[0].split(":")[-1].strip()
+		f.write(workout_name.replace("&","and"))
+		f.write("</workout>")
+		
 		head = soup.find("div",{"class":"workout-header-blue"}).parent
 		lis = head.find_all("li")
 		
@@ -35,13 +42,13 @@ for day in range(1,MAX_DAYS+1):
 			f.write("<description>" + description + "</description>\n")
 			f.write("</exercise>\n")
 			images = item.find_all("img")
-			print("Getting images. Please wait...")
+			#print("Getting images. Please wait...")
 			
 			for i in range(len(images)):
 				filename = exercise.lower().replace(" ","_") + "_" + str(i) + ".jpg";
 				outpath = os.path.join(os.path.join(os.getcwd(), "pics"), filename)
 				#urllib.urlretrieve(images[i]["src"], outpath)
-				print("Images saved to " + filename)
+				#print("Images saved to " + filename)
 		
 		f.write("</exercises>")
 		

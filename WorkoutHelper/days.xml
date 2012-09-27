@@ -1,6 +1,7 @@
 ﻿<workout>
   <day>
     <num>1</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -49,6 +50,7 @@
   </day>
   <day>
     <num>2</num>
+    <workout>Chest and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -89,9 +91,11 @@
   </day>
   <day>
     <num>3</num>
+    <workout>Nutrition and Shopping List</workout>
   </day>
   <day>
     <num>4</num>
+    <workout>Back/Biceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -145,6 +149,7 @@
   </day>
   <day>
     <num>5</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -192,9 +197,11 @@
   </day>
   <day>
     <num>6</num>
+    <workout>Muscle Anatomy</workout>
   </day>
   <day>
     <num>7</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -236,6 +243,7 @@
   </day>
   <day>
     <num>8</num>
+    <workout>Chest and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -291,9 +299,11 @@
   </day>
   <day>
     <num>9</num>
+    <workout>Dealing With Sickness and Traveling</workout>
   </day>
   <day>
     <num>10</num>
+    <workout>Shoulders</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -346,6 +356,7 @@
   </day>
   <day>
     <num>11</num>
+    <workout>Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -374,6 +385,7 @@
   </day>
   <day>
     <num>12</num>
+    <workout>Back and Biceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -436,9 +448,11 @@
   </day>
   <day>
     <num>13</num>
+    <workout>Fight Off Cravings and Burn Fat While Eating Out</workout>
   </day>
   <day>
     <num>14</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -468,6 +482,7 @@
   </day>
   <day>
     <num>15</num>
+    <workout>Chest and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -533,6 +548,7 @@
   </day>
   <day>
     <num>16</num>
+    <workout>Back and Biceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -591,12 +607,15 @@
   </day>
   <day>
     <num>17</num>
+    <workout>Fat In Your Diet</workout>
   </day>
   <day>
     <num>18</num>
+    <workout>Eating While Traveling</workout>
   </day>
   <day>
     <num>19</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -648,6 +667,7 @@
   </day>
   <day>
     <num>20</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -697,12 +717,15 @@
   </day>
   <day>
     <num>21</num>
+    <workout>Clearing Up Carb Confusion</workout>
   </day>
   <day>
     <num>22</num>
+    <workout>Exercising and Eating at the Hotel</workout>
   </day>
   <day>
     <num>23</num>
+    <workout>Back and Biceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -763,6 +786,7 @@
   </day>
   <day>
     <num>24</num>
+    <workout>Shoulders</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -802,6 +826,7 @@
   </day>
   <day>
     <num>25</num>
+    <workout>Chest</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -838,12 +863,15 @@
   </day>
   <day>
     <num>26</num>
+    <workout>Staying Accountable</workout>
   </day>
   <day>
     <num>27</num>
+    <workout>Importance Of Protein</workout>
   </day>
   <day>
     <num>28</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -880,6 +908,7 @@
   </day>
   <day>
     <num>29</num>
+    <workout>Triceps, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -937,12 +966,15 @@
   </day>
   <day>
     <num>30</num>
+    <workout>Adapting And Adjusting</workout>
   </day>
   <day>
     <num>31</num>
+    <workout>Coping With Bland Meals</workout>
   </day>
   <day>
     <num>32</num>
+    <workout>Shoulder</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -989,6 +1021,7 @@
   </day>
   <day>
     <num>33</num>
+    <workout>Chest and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1052,6 +1085,7 @@
   </day>
   <day>
     <num>34</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1115,6 +1149,7 @@
   </day>
   <day>
     <num>35</num>
+    <workout>Back, Biceps and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1175,12 +1210,15 @@
   </day>
   <day>
     <num>36</num>
+    <workout>Overcoming Road Blocks</workout>
   </day>
   <day>
     <num>37</num>
+    <workout>Free Weights Vs. Machines</workout>
   </day>
   <day>
     <num>38</num>
+    <workout>Shoulders and Calves</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1242,6 +1280,7 @@
   </day>
   <day>
     <num>39</num>
+    <workout>Chest, Triceps and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1314,6 +1353,7 @@
   </day>
   <day>
     <num>40</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1359,9 +1399,11 @@
   </day>
   <day>
     <num>41</num>
+    <workout>Burning Fat By Eating</workout>
   </day>
   <day>
     <num>42</num>
+    <workout>Back and Biceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1426,6 +1468,7 @@
   </day>
   <day>
     <num>43</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1486,9 +1529,11 @@
   </day>
   <day>
     <num>44</num>
+    <workout>Staying Active And Focused On Off Days</workout>
   </day>
   <day>
     <num>45</num>
+    <workout>Chest and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1546,6 +1591,7 @@
   </day>
   <day>
     <num>46</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1596,12 +1642,15 @@
   </day>
   <day>
     <num>47</num>
+    <workout>Common Mistakes In The Gym</workout>
   </day>
   <day>
     <num>48</num>
+    <workout>Getting Fresh Air For Cardio</workout>
   </day>
   <day>
     <num>49</num>
+    <workout>Back and Biceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1669,9 +1718,11 @@
   </day>
   <day>
     <num>50</num>
+    <workout>High Octane Recipes</workout>
   </day>
   <day>
     <num>51</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1726,6 +1777,7 @@
   </day>
   <day>
     <num>52</num>
+    <workout>Leg</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1770,6 +1822,7 @@
   </day>
   <day>
     <num>53</num>
+    <workout>Back and Chest</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1822,6 +1875,7 @@
   </day>
   <day>
     <num>54</num>
+    <workout>Biceps and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1854,15 +1908,19 @@
   </day>
   <day>
     <num>55</num>
+    <workout>Rise and Conquer</workout>
   </day>
   <day>
     <num>56</num>
+    <workout>Slow Twitch Vs. Fast Twitch Muscle Fibers</workout>
   </day>
   <day>
     <num>57</num>
+    <workout>Making Your Meals Travel</workout>
   </day>
   <day>
     <num>58</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1924,6 +1982,7 @@
   </day>
   <day>
     <num>59</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -1971,6 +2030,7 @@
   </day>
   <day>
     <num>60</num>
+    <workout>Chest and Back</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2048,9 +2108,11 @@
   </day>
   <day>
     <num>61</num>
+    <workout>Time Management</workout>
   </day>
   <day>
     <num>62</num>
+    <workout>Biceps and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2116,6 +2178,7 @@
   </day>
   <day>
     <num>63</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2187,6 +2250,7 @@
   </day>
   <day>
     <num>64</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2229,9 +2293,11 @@
   </day>
   <day>
     <num>65</num>
+    <workout>Hot Yoga</workout>
   </day>
   <day>
     <num>66</num>
+    <workout>Chest and Back</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2267,9 +2333,11 @@
   </day>
   <day>
     <num>67</num>
+    <workout>Inspiration And Post</workout>
   </day>
   <day>
     <num>68</num>
+    <workout>Legs and Shoulders</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2321,6 +2389,7 @@
   </day>
   <day>
     <num>69</num>
+    <workout>Abs and Calves</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2362,6 +2431,7 @@
   </day>
   <day>
     <num>70</num>
+    <workout>Back, Biceps and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2423,12 +2493,15 @@
   </day>
   <day>
     <num>71</num>
+    <workout>Cooking With Christina</workout>
   </day>
   <day>
     <num>72</num>
+    <workout>Maintaining Your Physique</workout>
   </day>
   <day>
     <num>73</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2457,6 +2530,7 @@
   </day>
   <day>
     <num>74</num>
+    <workout>Chest and Back</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2492,6 +2566,7 @@
   </day>
   <day>
     <num>75</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2533,12 +2608,15 @@
   </day>
   <day>
     <num>76</num>
+    <workout>Post</workout>
   </day>
   <day>
     <num>77</num>
+    <workout>Cutting Out Supplements</workout>
   </day>
   <day>
     <num>78</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2575,6 +2653,7 @@
   </day>
   <day>
     <num>79</num>
+    <workout>Chest and Back</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2610,6 +2689,7 @@
   </day>
   <day>
     <num>80</num>
+    <workout>Shoulders, Calves and Abs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2651,12 +2731,15 @@
   </day>
   <day>
     <num>81</num>
+    <workout>From Apprentice To Mentor</workout>
   </day>
   <day>
     <num>82</num>
+    <workout>Live By Example</workout>
   </day>
   <day>
     <num>83</num>
+    <workout>Biceps and Triceps</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>
@@ -2692,6 +2775,7 @@
   </day>
   <day>
     <num>84</num>
+    <workout>Legs</workout>
     <exercises>
       <exercise>
         <name>Cardio</name>

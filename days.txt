@@ -1,6 +1,6 @@
 <workout><day>
 <num>1</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Leg Press</name>
@@ -29,7 +29,7 @@
 </exercises></day>
 <day>
 <num>2</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Flat Dumbbell Press</name>
@@ -57,10 +57,10 @@
 </exercises></day>
 <day>
 <num>3</num>
-</day>
+<workout>Nutrition & Shopping List</workout></day>
 <day>
 <num>4</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back/Biceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Reverse-Grip Pulldowns</name>
@@ -94,7 +94,7 @@
 </exercises></day>
 <day>
 <num>5</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Military Press</name>
@@ -126,10 +126,10 @@
 </exercises></day>
 <day>
 <num>6</num>
-</day>
+<workout>Muscle Anatomy</workout></day>
 <day>
 <num>7</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Leg Extensions</name>
@@ -159,7 +159,7 @@
 </exercises></day>
 <day>
 <num>8</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Flat Dumbbell Press</name>
@@ -197,10 +197,10 @@
 </exercises></day>
 <day>
 <num>9</num>
-</day>
+<workout>Dealing With Sickness & Traveling</workout></day>
 <day>
 <num>10</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Smith Machine Overhead Shoulder Press</name>
@@ -232,7 +232,7 @@
 </exercises></day>
 <day>
 <num>11</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Standing Calf Raises</name>
@@ -251,7 +251,7 @@
 </exercises></day>
 <day>
 <num>12</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Reverse-Grip Pulldowns</name>
@@ -288,10 +288,10 @@
 </exercises></day>
 <day>
 <num>13</num>
-</day>
+<workout>Fight Off Cravings & Burn Fat While Eating Out</workout></day>
 <day>
 <num>14</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Leg Extensions</name>
@@ -312,7 +312,7 @@
 </exercises></day>
 <day>
 <num>15</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -355,7 +355,7 @@
 </exercises></day>
 <day>
 <num>16</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -394,13 +394,13 @@
 </exercises></day>
 <day>
 <num>17</num>
-</day>
+<workout>Fat In Your Diet</workout></day>
 <day>
 <num>18</num>
-</day>
+<workout>Eating While Traveling</workout></day>
 <day>
 <num>19</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -435,7 +435,7 @@
 </exercises></day>
 <day>
 <num>20</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -466,13 +466,13 @@
 </exercises></day>
 <day>
 <num>21</num>
-</day>
+<workout>Clearing Up Carb Confusion</workout></day>
 <day>
 <num>22</num>
-</day>
+<workout>Exercising and Eating at the Hotel</workout></day>
 <day>
 <num>23</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -510,7 +510,7 @@
 </exercises></day>
 <day>
 <num>24</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -536,7 +536,7 @@
 </exercises></day>
 <day>
 <num>25</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -561,13 +561,13 @@
 </exercises></day>
 <day>
 <num>26</num>
-</day>
+<workout>Staying Accountable</workout></day>
 <day>
 <num>27</num>
-</day>
+<workout>Importance Of Protein</workout></day>
 <day>
 <num>28</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -592,7 +592,7 @@
 </exercises></day>
 <day>
 <num>29</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Triceps, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -629,13 +629,13 @@
 </exercises></day>
 <day>
 <num>30</num>
-</day>
+<workout>Adapting And Adjusting</workout></day>
 <day>
 <num>31</num>
-</day>
+<workout>Coping With Bland Meals</workout></day>
 <day>
 <num>32</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulder</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -665,7 +665,7 @@
 </exercises></day>
 <day>
 <num>33</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -704,7 +704,7 @@
 </exercises></day>
 <day>
 <num>34</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -743,7 +743,7 @@
 </exercises></day>
 <day>
 <num>35</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back, Biceps & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -786,13 +786,13 @@
 </exercises></day>
 <day>
 <num>36</num>
-</day>
+<workout>Overcoming Road Blocks</workout></day>
 <day>
 <num>37</num>
-</day>
+<workout>Free Weights Vs. Machines</workout></day>
 <day>
 <num>38</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders & Calves</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -832,7 +832,7 @@
 </exercises></day>
 <day>
 <num>39</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest, Triceps & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -879,7 +879,7 @@
 </exercises></day>
 <day>
 <num>40</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -912,10 +912,10 @@
 </exercises></day>
 <day>
 <num>41</num>
-</day>
+<workout>Burning Fat By Eating</workout></day>
 <day>
 <num>42</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -956,7 +956,7 @@
 </exercises></day>
 <day>
 <num>43</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -995,10 +995,10 @@
 </exercises></day>
 <day>
 <num>44</num>
-</day>
+<workout>Staying Active And Focused On Off Days</workout></day>
 <day>
 <num>45</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1035,7 +1035,7 @@
 </exercises></day>
 <day>
 <num>46</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1068,13 +1068,13 @@
 </exercises></day>
 <day>
 <num>47</num>
-</day>
+<workout>Common Mistakes In The Gym</workout></day>
 <day>
 <num>48</num>
-</day>
+<workout>Getting Fresh Air For Cardio</workout></day>
 <day>
 <num>49</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1116,10 +1116,10 @@
 </exercises></day>
 <day>
 <num>50</num>
-</day>
+<workout>High Octane Recipes</workout></day>
 <day>
 <num>51</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1155,7 +1155,7 @@
 </exercises></day>
 <day>
 <num>52</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Leg</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1186,7 +1186,7 @@
 </exercises></day>
 <day>
 <num>53</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back & Chest</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1223,7 +1223,7 @@
 </exercises></day>
 <day>
 <num>54</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1245,16 +1245,16 @@
 </exercises></day>
 <day>
 <num>55</num>
-</day>
+<workout>Rise & Conquer</workout></day>
 <day>
 <num>56</num>
-</day>
+<workout>Slow Twitch Vs. Fast Twitch Muscle Fibers</workout></day>
 <day>
 <num>57</num>
-</day>
+<workout>Making Your Meals Travel</workout></day>
 <day>
 <num>58</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1294,7 +1294,7 @@
 </exercises></day>
 <day>
 <num>59</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1326,7 +1326,7 @@
 </exercises></day>
 <day>
 <num>60</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1373,10 +1373,10 @@
 </exercises></day>
 <day>
 <num>61</num>
-</day>
+<workout>Time Management</workout></day>
 <day>
 <num>62</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1419,7 +1419,7 @@
 </exercises></day>
 <day>
 <num>63</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1464,7 +1464,7 @@
 </exercises></day>
 <day>
 <num>64</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1491,10 +1491,10 @@
 </exercises></day>
 <day>
 <num>65</num>
-</day>
+<workout>Hot Yoga</workout></day>
 <day>
 <num>66</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1517,10 +1517,10 @@
 </exercises></day>
 <day>
 <num>67</num>
-</day>
+<workout>Inspiration And Post</workout></day>
 <day>
 <num>68</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs & Shoulders</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1555,7 +1555,7 @@
 </exercises></day>
 <day>
 <num>69</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Abs & Calves</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1585,7 +1585,7 @@
 </exercises></day>
 <day>
 <num>70</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Back, Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1630,13 +1630,13 @@
 </exercises></day>
 <day>
 <num>71</num>
-</day>
+<workout>Cooking With Christina</workout></day>
 <day>
 <num>72</num>
-</day>
+<workout>Maintaining Your Physique</workout></day>
 <day>
 <num>73</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1655,7 +1655,7 @@
 </exercises></day>
 <day>
 <num>74</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1678,7 +1678,7 @@
 </exercises></day>
 <day>
 <num>75</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1708,13 +1708,13 @@
 </exercises></day>
 <day>
 <num>76</num>
-</day>
+<workout>Post</workout></day>
 <day>
 <num>77</num>
-</day>
+<workout>Cutting Out Supplements</workout></day>
 <day>
 <num>78</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1739,7 +1739,7 @@
 </exercises></day>
 <day>
 <num>79</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1762,7 +1762,7 @@
 </exercises></day>
 <day>
 <num>80</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1792,13 +1792,13 @@
 </exercises></day>
 <day>
 <num>81</num>
-</day>
+<workout>From Apprentice To Mentor</workout></day>
 <day>
 <num>82</num>
-</day>
+<workout>Live By Example</workout></day>
 <day>
 <num>83</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1821,7 +1821,7 @@
 </exercises></day>
 <day>
 <num>84</num>
-<exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>

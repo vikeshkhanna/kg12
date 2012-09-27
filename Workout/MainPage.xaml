@@ -26,22 +26,35 @@
  
             <!--Panorama item one-->
             <controls:PanoramaItem Header="today">
-                <!--Double line list with text wrapping-->
-                <ListBox Margin="0,0,-12,0" ItemsSource="{Binding Items}">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Vertical" Margin="0,0,0,17">
-                                <TextBlock Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    
+                    <TextBlock Grid.Row="0" Text="{Binding Workout}" Margin="10,10,10,10" FontSize="22" />
+                    <!--Double line list with text wrapping-->
+                    <ListBox Grid.Row="1" Margin="0,0,-12,0" ItemsSource="{Binding Items}" Height="Auto">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                        <RowDefinition Height="Auto"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Grid.Row="0" Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
 
-                                <StackPanel Orientation="Horizontal" Width="432">
-                                    <Rectangle Height="53" Width="53" Fill="#FFE5001b" Margin="12,0,9,0"/>
-                                    <Rectangle Height="53" Width="53" Fill="#FFE5001b" Margin="12,0,9,0"/>
-                                    <TextBlock Text="{Binding LineTwo}" TextWrapping="Wrap"  Margin="12,-6,12,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
-                                </StackPanel>
-                            </StackPanel>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
+                                    <StackPanel Grid.Row="1" Orientation="Horizontal" Width="432">
+                                        <Rectangle Height="53" Width="53" Fill="#FFE5001b" Margin="12,0,1,0"/>
+                                        <Rectangle Height="53" Width="53" Fill="#FFE5001b" Margin="12,0,3,0"/>
+                                        <TextBlock Text="{Binding LineTwo}" TextWrapping="Wrap"  Margin="12,0,12,0" 
+                                                    MaxWidth="270" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
             </controls:PanoramaItem>
  
             <!--Panorama item two-->
@@ -55,7 +68,7 @@
                                 <!--Replace rectangle with image-->
                                 <Rectangle Height="100" Width="100" Fill="#FFE5001b" Margin="12,0,9,0"/>
                                 <StackPanel Width="311">                                    
-                                    <TextBlock Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                                    <TextBlock Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextLargeStyle}"/>
                                     <TextBlock Text="{Binding LineTwo}" TextWrapping="Wrap" Margin="12,-6,12,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
                                 </StackPanel>
                             </StackPanel>
