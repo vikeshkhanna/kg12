@@ -33,5 +33,10 @@ namespace Workout
                 App.ViewModel.LoadData();
             }
         }
+
+        private void settingsButton_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/SettingsPage.xaml", UriKind.Relative));
+        }
     }
 }

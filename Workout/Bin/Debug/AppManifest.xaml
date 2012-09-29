@@ -2,6 +2,7 @@
   <Deployment.Parts>
     <AssemblyPart x:Name="Workout" Source="Workout.dll" />
     <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
     <AssemblyPart x:Name="WorkoutHelper" Source="WorkoutHelper.dll" />
   </Deployment.Parts>
 </Deployment>

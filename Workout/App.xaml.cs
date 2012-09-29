@@ -15,12 +15,16 @@ using Microsoft.Phone.Shell;
 using System.Windows.Data;
 using System.Globalization;
 using System.Windows.Media.Imaging;
+using WorkoutHelper;
 
 namespace Workout
 {
     public partial class App : Application
     {
         private static MainViewModel viewModel = null;
+        private static WorkoutContext workoutDB;
+        private static bool isProgramOn;
+        private static DateTime programStartDate;
 
         /// <summary>
         /// A static ViewModel used by the views to bind against.
@@ -35,6 +39,42 @@ namespace Workout
                     viewModel = new MainViewModel();
 
                 return viewModel;
+            }
+        }
+
+        public static WorkoutContext WorkoutDB
+        {
+            get
+            {
+                return App.workoutDB;
+            }
+            private set
+            {
+                App.workoutDB = value;
+            }
+        }
+
+        public static bool IsProgramOn
+        {
+            get
+            {
+                return App.isProgramOn;
+            }
+            set
+            {
+                App.isProgramOn = value;
+            }
+        }
+
+        public static DateTime ProgramStartDate
+        {
+            get
+            {
+                return App.programStartDate;
+            }
+            set
+            {
+                App.programStartDate = value;
             }
         }
 
@@ -77,6 +117,11 @@ namespace Workout
                 // and consume battery power when the user is not using the phone.
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             }
+
+            //Instantiate DB context
+            App.WorkoutDB = new WorkoutContext("Data Source = 'appdata:/workout.sdf'; File Mode = read only;");
+
+            //Retrieve settings
 
         }
 
@@ -167,23 +212,17 @@ namespace Workout
         #endregion
     }
 
-    public class ImageConverter : IValueConverter
+    /// <summary>
+    /// Converts True to "Yes", False to "No"
+    /// </summary>
+    public class BooleanToYesNoConverter : IValueConverter
     {
-        public object Convert(object value, Type targetType,
-                              object parameter, CultureInfo culture)
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            try
-            {
-                return new BitmapImage(new Uri((string)value));
-            }
-            catch
-            {
-                return new BitmapImage();
-            }
+            return (((bool)value == true) ? "Yes" : "No");
         }
 
-        public object ConvertBack(object value, Type targetType,
-                                  object parameter, CultureInfo culture)
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
         }

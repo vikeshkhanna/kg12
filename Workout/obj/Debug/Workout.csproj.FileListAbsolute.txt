@@ -16,3 +16,7 @@ C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workou
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\WorkoutHelper.dll
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\WorkoutHelper.pdb
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\Workout.csprojResolveAssemblyReference.cache
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\SettingsPage.g.i.cs
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml

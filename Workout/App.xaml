@@ -9,7 +9,7 @@
 
     <!--Application Resources-->
     <Application.Resources>
-        <local:ImageConverter x:Key="ImageConverter" />
+        <local:BooleanToYesNoConverter x:Key="BooleanToYesNoConverter" />
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>

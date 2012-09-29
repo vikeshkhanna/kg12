@@ -24,7 +24,7 @@ namespace Workout
 
         public MainViewModel()
         {
-            this.workoutDB = new WorkoutContext("Data Source = 'appdata:/workout.sdf'; File Mode = read only;");
+            this.workoutDB = App.WorkoutDB;
             this.Items = new ObservableCollection<ItemViewModel>();
         }
 

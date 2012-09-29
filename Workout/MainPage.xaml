@@ -24,8 +24,22 @@
                 <ImageBrush ImageSource="Images/bane.jpg"/>
             </controls:Panorama.Background>
 
-            <controls:PanoramaItem Header="progress">
-                
+            <controls:PanoramaItem Header="status">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="20" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    
+                    
+                    <TextBlock Grid.Row="0" Text="Leg Workout Today"
+                        Style="{StaticResource PhoneTextLargeStyle}" />
+                    
+                    <TextBlock Grid.Row="2" Text="82 kg, measured on Friday"
+                        Style="{StaticResource PhoneTextLargeStyle}" />
+
+                </Grid>
             </controls:PanoramaItem>
             <!--Panorama item one-->
             <controls:PanoramaItem Header="today">
@@ -89,7 +103,7 @@
 
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" Mode="Minimized" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="settings"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="settings" Click="settingsButton_Click" />
             <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem Text="open today in browser"/>
             </shell:ApplicationBar.MenuItems>
