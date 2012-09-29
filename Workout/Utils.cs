@@ -11,26 +11,15 @@ using System.Windows.Shapes;
 using System.Windows.Media.Imaging;
 using System.IO.IsolatedStorage;
 using System.IO;
+using WorkoutHelper;
 
 namespace Workout
 {
     public class Utils
     {
-        public static BitmapImage GetImage(string fileName)
+        public static string GetImage(Exercise exercise, int index)
         {
-            using (var store = IsolatedStorageFile.GetUserStoreForApplication())
-            {
-                string path = System.IO.Path.Combine("Media", fileName);
-
-                if (!store.FileExists(path)) return null;
-
-                using (var stream = store.OpenFile(path, FileMode.Open))
-                {
-                    var image = new BitmapImage();
-                    image.SetSource(stream);
-                    return image;
-                }
-            }
+            return exercise.Name.ToLower().Replace(" ", "_") + "_" + Convert.ToString(index) + ".jpg";
         }
     }
 }

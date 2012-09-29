@@ -17,7 +17,7 @@ using System.Windows.Media.Imaging;
 
 namespace Workout
 {
-    public class ItemViewModel : INotifyPropertyChanged
+    public class WorkingExercise : INotifyPropertyChanged
     {
         private string exerciseName;
         private string exerciseDescription;
@@ -64,27 +64,6 @@ namespace Workout
             }
         }
 
-        private string _lineThree;
-        /// <summary>
-        /// Sample ViewModel property; this property is used in the view to display its value using a Binding.
-        /// </summary>
-        /// <returns></returns>
-        public string LineThree
-        {
-            get
-            {
-                return _lineThree;
-            }
-            set
-            {
-                if (value != _lineThree)
-                {
-                    _lineThree = value;
-                    NotifyPropertyChanged("LineThree");
-                }
-            }
-        }
-
         public string WorkoutImage1
         {
             get
@@ -126,6 +105,58 @@ namespace Workout
                 handler(this, new PropertyChangedEventArgs(propertyName));
             }
         }
+    }
+
+    public class DBExercise : INotifyPropertyChanged
+    {
+        private string exerciseName;
+        private string workoutImage;
+
+        public string ExerciseName
+        {
+            get
+            {
+                return this.exerciseName;
+            }
+            set
+            {
+                if (value != this.exerciseName)
+                {
+                    this.exerciseName = value;
+                    NotifyPropertyChanged("ExerciseName");
+                }
+            }
+        }
+
+        public string WorkoutImage
+        {
+            get
+            {
+                return this.workoutImage;
+            }
+            set
+            {
+                if (value != this.workoutImage)
+                {
+                    this.workoutImage = value;
+                    NotifyPropertyChanged("WorkoutImage ");
+                }
+            }
+        }
+
+        #region INotifyPropertyChanged 
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void NotifyPropertyChanged(String propertyName)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (null != handler)
+            {
+                handler(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
+        #endregion
     }
 
    

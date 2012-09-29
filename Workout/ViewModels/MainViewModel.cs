@@ -25,13 +25,26 @@ namespace Workout
         public MainViewModel()
         {
             this.workoutDB = App.WorkoutDB;
-            this.Items = new ObservableCollection<ItemViewModel>();
+            this.Items = new ObservableCollection<WorkingExercise>();
+            this.Exercises = new ObservableCollection<DBExercise>();
+
+            // Load all exercises
+            List<Exercise> exerciseList = (from Exercise e in App.WorkoutDB.Exercises
+                              select e).ToList();
+
+            foreach(Exercise exercise in exerciseList)
+            {
+                this.Exercises.Add(new DBExercise(){
+                                    ExerciseName = exercise.Name,
+                                    WorkoutImage = "Media/" + Utils.GetImage(exercise, 0) });
+            }
         }
 
         /// <summary>
         /// A collection for ItemViewModel objects.
         /// </summary>
-        public ObservableCollection<ItemViewModel> Items { get; private set; }
+        public ObservableCollection<WorkingExercise> Items { get; private set; }
+        public ObservableCollection<DBExercise> Exercises { get; private set; }
 
         private string _sampleProperty = "Sample Runtime Property Value";
         /// <summary>
@@ -99,10 +112,10 @@ namespace Workout
             {
                 Exercise exercise = this.workoutDB.Exercises.Single(ex => ex.ExerciseId == dayExercise.ExerciseId);
                 
-                this.Items.Add(new ItemViewModel() {
-                    WorkoutImage1 = "Media/" + exercise.Name.ToLower().Replace(" ", "_") + "_0.jpg",
-                    WorkoutImage2 = "Media/" + exercise.Name.ToLower().Replace(" ", "_") + "_1.jpg", 
-                    ExerciseName = exercise.Name, ExerciseDescription = dayExercise.Description, LineThree = "Lorem Ipsum" });
+                this.Items.Add(new WorkingExercise() {
+                    WorkoutImage1 = "Media/" + Utils.GetImage(exercise, 0),
+                    WorkoutImage2 = "Media/" + Utils.GetImage(exercise, 1), 
+                    ExerciseName = exercise.Name, ExerciseDescription = dayExercise.Description});
                 // Sample data; replace with real data
             }
             
