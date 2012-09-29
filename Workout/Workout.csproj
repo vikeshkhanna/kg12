@@ -108,6 +108,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="Images\bane.jpg" />
+    <Resource Include="Images\appbar.delete.rest.png" />
+    <Resource Include="Images\appbar.edit.rest.png" />
+    <Resource Include="Images\appbar.feature.settings.rest.png" />
+    <Resource Include="Images\appbar.new.rest.png" />
+    <Resource Include="Images\appbar.save.rest.png" />
+    <Resource Include="Images\appbar.cancel.rest.png" />
     <Content Include="workout.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
