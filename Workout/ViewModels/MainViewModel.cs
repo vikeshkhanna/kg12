@@ -26,18 +26,25 @@ namespace Workout
         {
             this.workoutDB = App.WorkoutDB;
             this.Items = new ObservableCollection<WorkingExercise>();
-            this.Exercises = new ObservableCollection<DBExercise>();
+            this.AllDBExercises = new List<DBExercise>();
 
             // Load all exercises
-            List<Exercise> exerciseList = (from Exercise e in App.WorkoutDB.Exercises
+            List<Exercise> allExercises = (from Exercise e in App.WorkoutDB.Exercises
                               select e).ToList();
 
-            foreach(Exercise exercise in exerciseList)
+            foreach (Exercise exercise in allExercises)
             {
-                this.Exercises.Add(new DBExercise(){
-                                    ExerciseName = exercise.Name,
-                                    WorkoutImage = "Media/" + Utils.GetImage(exercise, 0) });
+                DBExercise ex = new DBExercise()
+                {
+                    ExerciseName = exercise.Name,
+                    WorkoutImage = "Media/" + Utils.GetImage(exercise, 0)
+                };
+
+                this.AllDBExercises.Add(ex);
             }
+            
+            this.AllDBExercises = this.AllDBExercises.OrderBy(e => e.ExerciseName).ToList();
+            this.Exercises = new ObservableCollection<DBExercise>(this.AllDBExercises);
         }
 
         /// <summary>
@@ -45,7 +52,8 @@ namespace Workout
         /// </summary>
         public ObservableCollection<WorkingExercise> Items { get; private set; }
         public ObservableCollection<DBExercise> Exercises { get; private set; }
-
+        public List<DBExercise> AllDBExercises;
+       
         private string _sampleProperty = "Sample Runtime Property Value";
         /// <summary>
         /// Sample ViewModel property; this property is used in the view to display its value using a Binding
