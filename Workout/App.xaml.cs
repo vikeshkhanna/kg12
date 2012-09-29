@@ -16,6 +16,7 @@ using System.Windows.Data;
 using System.Globalization;
 using System.Windows.Media.Imaging;
 using WorkoutHelper;
+using System.IO.IsolatedStorage;
 
 namespace Workout
 {
@@ -25,6 +26,7 @@ namespace Workout
         private static WorkoutContext workoutDB;
         private static bool isProgramOn;
         private static DateTime programStartDate;
+        private static IsolatedStorageSettings userSettings = IsolatedStorageSettings.ApplicationSettings;
 
         /// <summary>
         /// A static ViewModel used by the views to bind against.
@@ -78,6 +80,18 @@ namespace Workout
             }
         }
 
+        public static IsolatedStorageSettings UserSettings
+        {
+            get
+            {
+                return App.userSettings;
+            }
+            private set
+            {
+                App.userSettings = value;
+            }
+        }
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -122,7 +136,17 @@ namespace Workout
             App.WorkoutDB = new WorkoutContext("Data Source = 'appdata:/workout.sdf'; File Mode = read only;");
 
             //Retrieve settings
-
+            try
+            {
+                App.IsProgramOn = (bool)App.UserSettings["IsProgramOn"];
+                App.ProgramStartDate = (DateTime)App.UserSettings["ProgramStartDate"];
+            }
+            catch (KeyNotFoundException ex)
+            {
+                App.IsProgramOn = false;
+                App.ProgramStartDate = DateTime.Now;
+                Console.WriteLine("<kg12> Exception : " + ex.Message);
+            }
         }
 
         // Code to execute when the application is launching (eg, from Start)

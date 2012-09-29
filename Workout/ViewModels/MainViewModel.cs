@@ -81,8 +81,12 @@ namespace Workout
         /// </summary>
         public void LoadData()
         {
+            this.Items.Clear();
+            TimeSpan difference = DateTime.Now - App.ProgramStartDate;
+            int dayNum = difference.Days + 1;
+
             Day day = (from Day d in this.workoutDB.Days
-                              where d.Num == 1
+                              where d.Num == dayNum
                               select d).Single();
 
             List<DayExercise> dayExercises = (from DayExercise de in this.workoutDB.DayExercises
@@ -103,6 +107,13 @@ namespace Workout
             }
             
             this.IsDataLoaded = true;
+        }
+        public bool IsFollowingProgram
+        {
+            get
+            {
+                return App.IsProgramOn;
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

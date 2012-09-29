@@ -33,7 +33,7 @@
                     </Grid.RowDefinitions>
                     
                     
-                    <TextBlock Grid.Row="0" Text="Leg Workout Today"
+                    <TextBlock Grid.Row="0" Text="{Binding Workout}"
                         Style="{StaticResource PhoneTextLargeStyle}" />
                     
                     <TextBlock Grid.Row="2" Text="82 kg, measured on Friday"

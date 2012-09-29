@@ -20,6 +20,7 @@ namespace Workout
     {
         private ToggleSwitchContent toggleSwitchData;
         private ObservableCollection<ListPickerContent> days;
+        private bool isFollowingProgram;
 
         public ObservableCollection<ListPickerContent> Days
         {
@@ -46,12 +47,13 @@ namespace Workout
         {
             InitializeComponent();
             this.DataContext = this;
+            this.IsFollowingProgram = App.IsProgramOn;
 
             List<Day> daysInDB = (from Day d in App.WorkoutDB.Days
                                     select d).ToList();
             
             this.days = new ObservableCollection<ListPickerContent>();
-
+           
             foreach (Day d in daysInDB)
             {
                 int week = (int)Math.Ceiling(d.Num / 7.0);
@@ -60,20 +62,27 @@ namespace Workout
             }
 
             NotifyPropertyChanged("Days");
+            
+            // Must always be after notify changed
+            if (App.IsProgramOn)
+            {
+                TimeSpan difference = DateTime.Now - App.ProgramStartDate;
+                this.ListPickerControl.SelectedIndex = difference.Days;
+            }
         }
 
         public bool IsFollowingProgram
         {
             get
             {
-                return App.IsProgramOn;
+                return isFollowingProgram;
             }
             set
             {
-                if (App.IsProgramOn != value)
+                if (isFollowingProgram != value)
                 {
-                    App.IsProgramOn = value;
-                    this.ToggleSwitchData.Refresh();  // just a place holder to fire NotifyPropertyChanged
+                    isFollowingProgram = value;
+                    this.toggleSwitchData.IsFollowingProgram = value;
                     NotifyPropertyChanged("IsFollowingProgram");
                  }
             }
@@ -95,12 +104,35 @@ namespace Workout
 
         private void saveButton_Click(object sender, EventArgs e)
         {
+            App.ProgramStartDate = DateTime.Now.Subtract(new TimeSpan(this.ListPickerControl.SelectedIndex,0,0,0));
+            App.IsProgramOn = this.IsFollowingProgram;
 
+            if (!App.UserSettings.Contains("IsProgramOn"))
+            {
+                App.UserSettings.Add("IsProgramOn", this.IsFollowingProgram);
+            }
+            else
+            {
+                App.UserSettings["IsProgramOn"] = this.IsFollowingProgram;
+            }
+
+            if (!App.UserSettings.Contains("ProgramStartDate"))
+            {
+                
+                App.UserSettings.Add("ProgramStartDate", App.ProgramStartDate);
+            }
+            else
+            {
+                App.UserSettings["ProgramStartDate"] = App.ProgramStartDate;
+            }
+
+            App.UserSettings.Save();
+            NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
-        { 
-        
+        {
+            NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
         }
     }
     
@@ -123,17 +155,22 @@ namespace Workout
 
     public class ToggleSwitchContent:INotifyPropertyChanged
     {
+        private bool isFollowingProgram;
+
         public bool IsFollowingProgram
         {
             get
             {
-                return App.IsProgramOn;
+                return this.isFollowingProgram;
             }
-        }
-
-        internal void Refresh()
-        {
-            NotifyPropertyChanged("IsFollowingProgram");
+            set
+            {
+                if (this.isFollowingProgram != value)
+                {
+                    this.isFollowingProgram = value;
+                    NotifyPropertyChanged("IsFollowingProgram");
+                }
+            }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

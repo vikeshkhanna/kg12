@@ -53,7 +53,8 @@
             
             <TextBlock Grid.Row="2" Text="Which workout are you on today?" Style="{StaticResource PhoneTextNormalStyle}" />
             
-            <toolkit:ListPicker Grid.Row="4" ItemsSource="{Binding Days}">
+            <toolkit:ListPicker x:Name="ListPickerControl" Grid.Row="4" ItemsSource="{Binding Days}"
+                                IsEnabled="{Binding IsFollowingProgram}">
                 <toolkit:ListPicker.FullModeItemTemplate>
                     <DataTemplate>
                         <TextBlock Text="{Binding Workout}" />

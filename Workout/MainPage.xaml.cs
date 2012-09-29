@@ -28,10 +28,7 @@ namespace Workout
         // Load data for the ViewModel Items
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            if (!App.ViewModel.IsDataLoaded)
-            {
-                App.ViewModel.LoadData();
-            }
+            App.ViewModel.LoadData();
         }
 
         private void settingsButton_Click(object sender, EventArgs e)
