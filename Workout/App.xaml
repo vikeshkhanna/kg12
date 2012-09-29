@@ -10,6 +10,7 @@
     <!--Application Resources-->
     <Application.Resources>
         <local:BooleanToYesNoConverter x:Key="BooleanToYesNoConverter" />
+        <SolidColorBrush x:Key="TransparentBlackBrush" Color="Black" Opacity="0.9" />
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>

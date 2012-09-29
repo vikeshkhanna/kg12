@@ -49,12 +49,15 @@
                         <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
 
-                    <TextBlock Grid.Row="0" Text="{Binding Workout}" Margin="10,10,10,10" Style="{StaticResource PhoneTextLargeStyle}" />
+                  
+                    <TextBlock Grid.Row="0" Text="{Binding Workout}" Margin="10,10,10,10" 
+                            Style="{StaticResource PhoneTextLargeStyle}" />
+                 
                     <!--Double line list with text wrapping-->
                     <ListBox Grid.Row="1" Margin="0,0,-12,0" ItemsSource="{Binding Items}" Height="Auto">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Grid Margin="0,0,0, 20">
+                                <Grid Margin="0,15,0, 15" Background="{StaticResource TransparentBlackBrush}">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"></RowDefinition>
                                         <RowDefinition Height="Auto"></RowDefinition>
@@ -62,7 +65,7 @@
                                     <TextBlock Grid.Row="0" Text="{Binding ExerciseName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
 
                                     <StackPanel Grid.Row="1" Orientation="Horizontal" Width="432" VerticalAlignment="Top">
-                                        <Image Height="53" Width="53" Source="{Binding WorkoutImage1}" Margin="0,0,5,0" VerticalAlignment="Top" />
+                                        <Image Height="53" Width="53" Source="{Binding WorkoutImage1}" Margin="10,0,5,0" VerticalAlignment="Top" />
                                         <Image Height="53" Width="53" Source="{Binding WorkoutImage2}" Margin="0,0,3,0" VerticalAlignment="Top" />
                                         
                                         <TextBlock Text="{Binding ExerciseDescription}" TextWrapping="Wrap"  Margin="10,0,12,0" FontSize="18"
@@ -93,10 +96,6 @@
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-            </controls:PanoramaItem>
-
-            <controls:PanoramaItem Header="weight track">
-                
             </controls:PanoramaItem>
         </controls:Panorama>
     </Grid>
