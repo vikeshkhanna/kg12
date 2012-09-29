@@ -114,7 +114,21 @@
                         </ListBox.ItemTemplate>
                     </ListBox>
                 </Grid>
-                
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="video">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    
+                    <phone:WebBrowser Grid.Row="0" x:Name="webBrowserControl" 
+                                      Navigating="webBrowserControl_Navigating"
+                                      IsScriptEnabled="True">
+
+                    </phone:WebBrowser>
+                </Grid>
+            
             </controls:PanoramaItem>
         </controls:Panorama>
     </Grid>

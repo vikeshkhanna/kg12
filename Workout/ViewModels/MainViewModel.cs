@@ -103,12 +103,7 @@ namespace Workout
         public void LoadData()
         {
             this.Items.Clear();
-            TimeSpan difference = DateTime.Now - App.ProgramStartDate;
-            int dayNum = difference.Days + 1;
-
-            Day day = (from Day d in this.workoutDB.Days
-                              where d.Num == dayNum
-                              select d).Single();
+            Day day = Utils.GetCurrentDay();
 
             List<DayExercise> dayExercises = (from DayExercise de in this.workoutDB.DayExercises
                                               where de.DayId == day.DayId

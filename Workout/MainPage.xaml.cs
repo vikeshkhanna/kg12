@@ -11,6 +11,7 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using WorkoutHelper;
+using Microsoft.Phone.Tasks;
 
 namespace Workout
 {
@@ -24,6 +25,12 @@ namespace Workout
             // Set the data context of the listbox control to the sample data
             DataContext = App.ViewModel;
             this.Loaded += new RoutedEventHandler(MainPage_Loaded);
+            
+            Day day = Utils.GetCurrentDay();
+            string url = String.Format("<html><head><style>body{{background:black; width:100%; height:100%}}</style></head><body><div class=\"BBCOMVideoEmbed\" data-video-key=\"{0}\" data-autoplay=\"false\" data-thumbnail-url=\"{1}\" height=\"400px\"><script type=\"text/javascript\" src=\"http://assets.bodybuilding.com/videos/javascript/min/external-video-embed.js\"></script></div></body></html>",
+                day.VideoKey, day.ThumbnailUrl);
+
+            this.webBrowserControl.NavigateToString(url);
         }
 
         // Load data for the ViewModel Items
@@ -48,6 +55,18 @@ namespace Workout
                     App.ViewModel.Exercises.Add(exercise);
                 }
             }
+        }
+
+        private void webBrowserControl_Navigating(object sender, NavigatingEventArgs e)
+        {
+            MediaPlayerLauncher mediaPlayerLauncher = new MediaPlayerLauncher();
+
+            mediaPlayerLauncher.Media = e.Uri;
+            mediaPlayerLauncher.Location = MediaLocationType.Data;
+            mediaPlayerLauncher.Controls = MediaPlaybackControls.Pause | MediaPlaybackControls.Stop;
+            mediaPlayerLauncher.Orientation = MediaPlayerOrientation.Landscape;
+
+            mediaPlayerLauncher.Show();
         }
     }
 }

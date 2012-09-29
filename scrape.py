@@ -28,6 +28,17 @@ for day in range(1,MAX_DAYS+1):
 		f.write(workout_name.replace("&","and"))
 		f.write("</workout>")
 		
+		f.write("<video>")
+		video_element = soup.find("div", {"class":"BBCOMVideoEmbed"})
+		f.write("<video_key>")
+		f.write(video_element['data-video-key'])
+		f.write("</video_key>")
+		f.write("<thumbnail_url>")
+		f.write(video_element['data-thumbnail-url'])
+		f.write("</thumbnail_url>")
+		
+		f.write("</video>")
+		
 		head = soup.find("div",{"class":"workout-header-blue"}).parent
 		lis = head.find_all("li")
 		

@@ -25,7 +25,7 @@ namespace WorkoutHelper
     public partial class MainPage : PhoneApplicationPage, INotifyPropertyChanged
     {
         private WorkoutContext workoutDB;
-
+        
         // Constructor
         public MainPage()
         {
@@ -49,10 +49,13 @@ namespace WorkoutHelper
                 Day day = new Day();
                 day.Workout = (element.Descendants("workout").Single() as XElement).Value.ToString();
                 day.Num = num;
+                day.VideoKey = ((element.Descendants("video").Single() as XElement).Descendants("video_key").Single() as XElement).Value;
+                day.ThumbnailUrl = ((element.Descendants("video").Single() as XElement).Descendants("thumbnail_url").Single() as XElement).Value;
+
                 this.workoutDB.Days.InsertOnSubmit(day);
                 this.workoutDB.SubmitChanges();
          
-                if (element.Elements().Count() == 3)
+                if (element.Elements().Count() == 4)
                 {
                     XElement exerciseRoot = element.Descendants("exercises").Single() as XElement;
                     
@@ -90,7 +93,7 @@ namespace WorkoutHelper
                 int num = Convert.ToInt32((element.Descendants("num").Single() as XElement).Value);
 
                 // Exercises are also present
-                if (element.Elements().Count() == 3)
+                if (element.Elements().Count() == 4)
                 {
                     XElement exerciseRoot = element.Descendants("exercises").Single() as XElement;
                     
@@ -137,6 +140,7 @@ namespace WorkoutHelper
     { 
         private string name;
         private int exerciseId;
+
 
         [Column(IsPrimaryKey = true, IsDbGenerated = true, DbType = "INT NOT NULL Identity", CanBeNull = false, AutoSync = AutoSync.OnInsert)]
         public int ExerciseId
@@ -212,7 +216,9 @@ namespace WorkoutHelper
         private int dayId;
         private int num;
         private string workout;
-        
+        private string videoKey;
+        private string thumbnailUrl;
+
         [Column(IsPrimaryKey = true, IsDbGenerated = true, DbType = "INT NOT NULL Identity", CanBeNull = false, AutoSync = AutoSync.OnInsert)]
         public int DayId
         {
@@ -266,6 +272,44 @@ namespace WorkoutHelper
                 }
             }
         }
+
+        [Column]
+        public string VideoKey
+        {
+            get
+            {
+                return this.videoKey;
+            }
+            set
+            {
+                if (this.videoKey != value)
+                {
+                    NotifyPropertyChanging("VideoKey");
+                    this.videoKey = value;
+                    NotifyPropertyChanged("VideoKey");
+                }
+            }
+        }
+
+
+        [Column]
+        public string ThumbnailUrl
+        {
+            get
+            {
+                return this.thumbnailUrl;
+            }
+            set
+            {
+                if (this.videoKey != value)
+                {
+                    NotifyPropertyChanging("ThumbnailUrl");
+                    this.thumbnailUrl = value;
+                    NotifyPropertyChanged("ThumnbailUrl");
+                }
+            }
+        }
+
 
 
         #region INotifyPropertyChanged Members

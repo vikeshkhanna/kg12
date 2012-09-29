@@ -1,6 +1,6 @@
 <workout><day>
 <num>1</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>ce78ec4e33ee7725049a</video_key><thumbnail_url>http://www.bodybuilding.com/fun/images/2011/gethin-screenshot.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Leg Press</name>
@@ -29,7 +29,7 @@
 </exercises></day>
 <day>
 <num>2</num>
-<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Triceps</workout><video><video_key>aa2e1b3808ca2d999ab7</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79722.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Flat Dumbbell Press</name>
@@ -57,10 +57,10 @@
 </exercises></day>
 <day>
 <num>3</num>
-<workout>Nutrition & Shopping List</workout></day>
+<workout>Nutrition and Shopping List</workout><video><video_key>b12cdf2d829ddbbd26f4</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79742.jpg</thumbnail_url></video></day>
 <day>
 <num>4</num>
-<workout>Back/Biceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Back/Biceps</workout><video><video_key>ed4ae5bcfbbc24601cd2</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79752.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Reverse-Grip Pulldowns</name>
@@ -94,7 +94,7 @@
 </exercises></day>
 <day>
 <num>5</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>631af4dcf20949e17500</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79812.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Military Press</name>
@@ -126,10 +126,10 @@
 </exercises></day>
 <day>
 <num>6</num>
-<workout>Muscle Anatomy</workout></day>
+<workout>Muscle Anatomy</workout><video><video_key>bef3660807d16a9860d7</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79782.jpg</thumbnail_url></video></day>
 <day>
 <num>7</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>34d64ff90a522aec4003</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79802.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Leg Extensions</name>
@@ -159,7 +159,7 @@
 </exercises></day>
 <day>
 <num>8</num>
-<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Triceps</workout><video><video_key>894a7b203c94131659a0</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79832.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 minutes</description>
 </exercise>
 <exercise><name>Flat Dumbbell Press</name>
@@ -197,10 +197,10 @@
 </exercises></day>
 <day>
 <num>9</num>
-<workout>Dealing With Sickness & Traveling</workout></day>
+<workout>Dealing With Sickness and Traveling</workout><video><video_key>ac96faf90ffa519aea56</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79682.jpg</thumbnail_url></video></day>
 <day>
 <num>10</num>
-<workout>Shoulders</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders</workout><video><video_key>9a100b319c5238677d90</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79702.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Smith Machine Overhead Shoulder Press</name>
@@ -232,7 +232,7 @@
 </exercises></day>
 <day>
 <num>11</num>
-<workout>Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Calves and Abs</workout><video><video_key>2afe4c227fcb3af68aa6</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79712.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Standing Calf Raises</name>
@@ -251,7 +251,7 @@
 </exercises></day>
 <day>
 <num>12</num>
-<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Back and Biceps</workout><video><video_key>273cd15fed5f4853a50d</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79732.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Reverse-Grip Pulldowns</name>
@@ -288,10 +288,10 @@
 </exercises></day>
 <day>
 <num>13</num>
-<workout>Fight Off Cravings & Burn Fat While Eating Out</workout></day>
+<workout>Fight Off Cravings and Burn Fat While Eating Out</workout><video><video_key>f3d8e1448c5fe4706549</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79762.jpg</thumbnail_url></video></day>
 <day>
 <num>14</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>5830f60378686cc7f136</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/78000/2_79772.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Leg Extensions</name>
@@ -312,7 +312,7 @@
 </exercises></day>
 <day>
 <num>15</num>
-<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Triceps</workout><video><video_key>e00f3938085138f5f710</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80132.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -355,7 +355,7 @@
 </exercises></day>
 <day>
 <num>16</num>
-<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Back and Biceps</workout><video><video_key>29030780e87ba5d5fa20</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80142.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -394,13 +394,13 @@
 </exercises></day>
 <day>
 <num>17</num>
-<workout>Fat In Your Diet</workout></day>
+<workout>Fat In Your Diet</workout><video><video_key>f05903320af79fb71cea</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80152.jpg</thumbnail_url></video></day>
 <day>
 <num>18</num>
-<workout>Eating While Traveling</workout></day>
+<workout>Eating While Traveling</workout><video><video_key>45af32e8e3916b122be4</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80162.jpg</thumbnail_url></video></day>
 <day>
 <num>19</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>37753d307a0e4a2dd8ba</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80172.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -435,7 +435,7 @@
 </exercises></day>
 <day>
 <num>20</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>d81431f3f007066fa4fb</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80182.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -466,13 +466,13 @@
 </exercises></day>
 <day>
 <num>21</num>
-<workout>Clearing Up Carb Confusion</workout></day>
+<workout>Clearing Up Carb Confusion</workout><video><video_key>1d2d8f878589b4274ce0</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80192.jpg</thumbnail_url></video></day>
 <day>
 <num>22</num>
-<workout>Exercising and Eating at the Hotel</workout></day>
+<workout>Exercising and Eating at the Hotel</workout><video><video_key>f53065332f1e046580b4</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80392.jpg</thumbnail_url></video></day>
 <day>
 <num>23</num>
-<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Back and Biceps</workout><video><video_key>c7e341fc11fe76a164b8</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80402.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -510,7 +510,7 @@
 </exercises></day>
 <day>
 <num>24</num>
-<workout>Shoulders</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders</workout><video><video_key>b4106b0df395b896d7d6</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80412.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -536,7 +536,7 @@
 </exercises></day>
 <day>
 <num>25</num>
-<workout>Chest</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest</workout><video><video_key>cdcb91fd47100303509e</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80422.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -561,13 +561,13 @@
 </exercises></day>
 <day>
 <num>26</num>
-<workout>Staying Accountable</workout></day>
+<workout>Staying Accountable</workout><video><video_key>7c0f03566bfce5199b90</video_key><thumbnail_url>http://www.bodybuilding.com/fun/images/2010/kris-gethin-12-week-daily-trainer-week-4-day-26-video-thumbnail.jpg</thumbnail_url></video></day>
 <day>
 <num>27</num>
-<workout>Importance Of Protein</workout></day>
+<workout>Importance Of Protein</workout><video><video_key>dd66d172a4ffd9f13062</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80442.jpg</thumbnail_url></video></day>
 <day>
 <num>28</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>3cfd2db225f4e5acbb90</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80452.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -592,7 +592,7 @@
 </exercises></day>
 <day>
 <num>29</num>
-<workout>Triceps, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Triceps, Calves and Abs</workout><video><video_key>18ed172263ce8c57448a</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80882.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -629,13 +629,13 @@
 </exercises></day>
 <day>
 <num>30</num>
-<workout>Adapting And Adjusting</workout></day>
+<workout>Adapting And Adjusting</workout><video><video_key>340faf5c9e4e921638f7</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80892.jpg</thumbnail_url></video></day>
 <day>
 <num>31</num>
-<workout>Coping With Bland Meals</workout></day>
+<workout>Coping With Bland Meals</workout><video><video_key>bce9e9b5ff4e20968aa5</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80902.jpg</thumbnail_url></video></day>
 <day>
 <num>32</num>
-<workout>Shoulder</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulder</workout><video><video_key>e5baeae6562d84284c5c</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80912.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -665,7 +665,7 @@
 </exercises></day>
 <day>
 <num>33</num>
-<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Triceps</workout><video><video_key>6fe8be968d498275ec8b</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80922.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -704,7 +704,7 @@
 </exercises></day>
 <day>
 <num>34</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>f409e24d3abf5389ff79</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80932.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -743,7 +743,7 @@
 </exercises></day>
 <day>
 <num>35</num>
-<workout>Back, Biceps & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Back, Biceps and Abs</workout><video><video_key>2544720d5d001fb279da</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_80942.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -786,13 +786,13 @@
 </exercises></day>
 <day>
 <num>36</num>
-<workout>Overcoming Road Blocks</workout></day>
+<workout>Overcoming Road Blocks</workout><video><video_key>94fa3ccf4d5c6fdd1554</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81292.jpg</thumbnail_url></video></day>
 <day>
 <num>37</num>
-<workout>Free Weights Vs. Machines</workout></day>
+<workout>Free Weights Vs. Machines</workout><video><video_key>46df10ef3a3b97f6de63</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81302.jpg</thumbnail_url></video></day>
 <day>
 <num>38</num>
-<workout>Shoulders & Calves</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders and Calves</workout><video><video_key>57d8a433f4f9afe8c6cd</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81312.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -832,7 +832,7 @@
 </exercises></day>
 <day>
 <num>39</num>
-<workout>Chest, Triceps & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest, Triceps and Abs</workout><video><video_key>453813bb99586f1bae93</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81322.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -879,7 +879,7 @@
 </exercises></day>
 <day>
 <num>40</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>884cfa57de2f3d9e2626</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81332.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -912,10 +912,10 @@
 </exercises></day>
 <day>
 <num>41</num>
-<workout>Burning Fat By Eating</workout></day>
+<workout>Burning Fat By Eating</workout><video><video_key>49c1bb8f92dccfc8edab</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81342.jpg</thumbnail_url></video></day>
 <day>
 <num>42</num>
-<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Back and Biceps</workout><video><video_key>da8a1dfcb51e5f75933b</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81352.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -956,7 +956,7 @@
 </exercises></day>
 <day>
 <num>43</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>53978e31726eb83676b2</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81722.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -995,10 +995,10 @@
 </exercises></day>
 <day>
 <num>44</num>
-<workout>Staying Active And Focused On Off Days</workout></day>
+<workout>Staying Active And Focused On Off Days</workout><video><video_key>0ba40721d6db01ad4929</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81732.jpg</thumbnail_url></video></day>
 <day>
 <num>45</num>
-<workout>Chest & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Triceps</workout><video><video_key>25c9a31365a1f40f2799</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81742.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1035,7 +1035,7 @@
 </exercises></day>
 <day>
 <num>46</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>68f127591305ff3164c4</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81752.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1068,13 +1068,13 @@
 </exercises></day>
 <day>
 <num>47</num>
-<workout>Common Mistakes In The Gym</workout></day>
+<workout>Common Mistakes In The Gym</workout><video><video_key>1b68fc370bdf4028c9df</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81762.jpg</thumbnail_url></video></day>
 <day>
 <num>48</num>
-<workout>Getting Fresh Air For Cardio</workout></day>
+<workout>Getting Fresh Air For Cardio</workout><video><video_key>fcd0a14cc60d8addb5a6</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81772.jpg</thumbnail_url></video></day>
 <day>
 <num>49</num>
-<workout>Back & Biceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Back and Biceps</workout><video><video_key>3b1b31bc3cae365051c8</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/80000/2_81782.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>20 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1116,10 +1116,10 @@
 </exercises></day>
 <day>
 <num>50</num>
-<workout>High Octane Recipes</workout></day>
+<workout>High Octane Recipes</workout><video><video_key>b685566dfe13453a64c3</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82082.jpg</thumbnail_url></video></day>
 <day>
 <num>51</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>87acf9bd786874abb0bd</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82092.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1155,7 +1155,7 @@
 </exercises></day>
 <day>
 <num>52</num>
-<workout>Leg</workout><exercises><exercise><name>Cardio</name>
+<workout>Leg</workout><video><video_key>afe1937578f99efdc252</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82102.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1186,7 +1186,7 @@
 </exercises></day>
 <day>
 <num>53</num>
-<workout>Back & Chest</workout><exercises><exercise><name>Cardio</name>
+<workout>Back and Chest</workout><video><video_key>0d780252dbf4f9dcb603</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82112.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1223,7 +1223,7 @@
 </exercises></day>
 <day>
 <num>54</num>
-<workout>Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Biceps and Triceps</workout><video><video_key>c3d9c094e3c0702b089d</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82122.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1245,16 +1245,16 @@
 </exercises></day>
 <day>
 <num>55</num>
-<workout>Rise & Conquer</workout></day>
+<workout>Rise and Conquer</workout><video><video_key>b29a5d5b15c842fe1757</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82132.jpg</thumbnail_url></video></day>
 <day>
 <num>56</num>
-<workout>Slow Twitch Vs. Fast Twitch Muscle Fibers</workout></day>
+<workout>Slow Twitch Vs. Fast Twitch Muscle Fibers</workout><video><video_key>ce2ccfd7b77fdc38cf9c</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82142.jpg</thumbnail_url></video></day>
 <day>
 <num>57</num>
-<workout>Making Your Meals Travel</workout></day>
+<workout>Making Your Meals Travel</workout><video><video_key>66812c812eabbb8639cb</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82352.jpg</thumbnail_url></video></day>
 <day>
 <num>58</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>fe7a826dc0ac7854005d</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82362.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1294,7 +1294,7 @@
 </exercises></day>
 <day>
 <num>59</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>625a94ac65978d0c7ae8</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82372.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1326,7 +1326,7 @@
 </exercises></day>
 <day>
 <num>60</num>
-<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Back</workout><video><video_key>b04c70c423bbc4868bfa</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82382.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1373,10 +1373,10 @@
 </exercises></day>
 <day>
 <num>61</num>
-<workout>Time Management</workout></day>
+<workout>Time Management</workout><video><video_key>02dcf309ac2395a54f3c</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82392.jpg</thumbnail_url></video></day>
 <day>
 <num>62</num>
-<workout>Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Biceps and Triceps</workout><video><video_key>9504e689b0fa3dfdb5f8</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82402.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1419,7 +1419,7 @@
 </exercises></day>
 <day>
 <num>63</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>963e8dc18162dc0450a8</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82412.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1464,7 +1464,7 @@
 </exercises></day>
 <day>
 <num>64</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>ba748b95dba5c03b2114</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82662.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1491,10 +1491,10 @@
 </exercises></day>
 <day>
 <num>65</num>
-<workout>Hot Yoga</workout></day>
+<workout>Hot Yoga</workout><video><video_key>d1235bfa2a5714b2a76f</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82672.jpg</thumbnail_url></video></day>
 <day>
 <num>66</num>
-<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Back</workout><video><video_key>c1bda7b3372f62a83567</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82682.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1517,10 +1517,10 @@
 </exercises></day>
 <day>
 <num>67</num>
-<workout>Inspiration And Post</workout></day>
+<workout>Inspiration And Post</workout><video><video_key>bfefc7d077205e2e4b0d</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82692.jpg</thumbnail_url></video></day>
 <day>
 <num>68</num>
-<workout>Legs & Shoulders</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs and Shoulders</workout><video><video_key>7618dd2bb0a56f5e1026</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82702.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1555,7 +1555,7 @@
 </exercises></day>
 <day>
 <num>69</num>
-<workout>Abs & Calves</workout><exercises><exercise><name>Cardio</name>
+<workout>Abs and Calves</workout><video><video_key>6e95af83a6f136ae97a3</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82712.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1585,7 +1585,7 @@
 </exercises></day>
 <day>
 <num>70</num>
-<workout>Back, Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Back, Biceps and Triceps</workout><video><video_key>c34a4382a8eb03defd90</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_82722.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1630,13 +1630,13 @@
 </exercises></day>
 <day>
 <num>71</num>
-<workout>Cooking With Christina</workout></day>
+<workout>Cooking With Christina</workout><video><video_key>ae355dc827614bb83e57</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83042.jpg</thumbnail_url></video></day>
 <day>
 <num>72</num>
-<workout>Maintaining Your Physique</workout></day>
+<workout>Maintaining Your Physique</workout><video><video_key>036ab2f4c2d02b748548</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83052.jpg</thumbnail_url></video></day>
 <day>
 <num>73</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>1bf80c155153bedc012e</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83062.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1655,7 +1655,7 @@
 </exercises></day>
 <day>
 <num>74</num>
-<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Back</workout><video><video_key>99393125a4a8ebb2e5ba</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83082.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1678,7 +1678,7 @@
 </exercises></day>
 <day>
 <num>75</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>9db712c1b68facffca0b</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83092.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1708,13 +1708,13 @@
 </exercises></day>
 <day>
 <num>76</num>
-<workout>Post</workout></day>
+<workout>Post</workout><video><video_key>a4c158cc4ffb5902331b</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83122.jpg</thumbnail_url></video></day>
 <day>
 <num>77</num>
-<workout>Cutting Out Supplements</workout></day>
+<workout>Cutting Out Supplements</workout><video><video_key>0b8d72f718fed5410431</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83132.jpg</thumbnail_url></video></day>
 <day>
 <num>78</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>85ad6ebe16e90efb48c0</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83142.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1739,7 +1739,7 @@
 </exercises></day>
 <day>
 <num>79</num>
-<workout>Chest & Back</workout><exercises><exercise><name>Cardio</name>
+<workout>Chest and Back</workout><video><video_key>74cb315de0384cc67cce</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83152.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1762,7 +1762,7 @@
 </exercises></day>
 <day>
 <num>80</num>
-<workout>Shoulders, Calves & Abs</workout><exercises><exercise><name>Cardio</name>
+<workout>Shoulders, Calves and Abs</workout><video><video_key>11b276c00df310aa23cb</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83162.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1792,13 +1792,13 @@
 </exercises></day>
 <day>
 <num>81</num>
-<workout>From Apprentice To Mentor</workout></day>
+<workout>From Apprentice To Mentor</workout><video><video_key>ec3ad6a53125d226fe3d</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83172.jpg</thumbnail_url></video></day>
 <day>
 <num>82</num>
-<workout>Live By Example</workout></day>
+<workout>Live By Example</workout><video><video_key>4fe4dcdaaef3d9c5855b</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83182.jpg</thumbnail_url></video></day>
 <day>
 <num>83</num>
-<workout>Biceps & Triceps</workout><exercises><exercise><name>Cardio</name>
+<workout>Biceps and Triceps</workout><video><video_key>68cdd772c0a19735a238</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83192.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
@@ -1821,7 +1821,7 @@
 </exercises></day>
 <day>
 <num>84</num>
-<workout>Legs</workout><exercises><exercise><name>Cardio</name>
+<workout>Legs</workout><video><video_key>2bdb29168d80813812d3</video_key><thumbnail_url>http://videos.bodybuilding.com/preview/82000/2_83202.jpg</thumbnail_url></video><exercises><exercise><name>Cardio</name>
 <description>25 min</description>
 </exercise>
 <exercise><name>Seated Barbell Twist</name>
