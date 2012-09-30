@@ -10,6 +10,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
@@ -17,6 +18,7 @@
           4-5 warm-up sets of 10-12 reps
           3 sets to failure in 12-20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hamstring Curl</name>
@@ -24,6 +26,7 @@
           2 warm-up sets of 15 reps
           3 sets to failure in 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Lying Hamstring Curl</name>
@@ -31,6 +34,7 @@
           2 warm-up sets of 15 reps
           3 sets to failure in 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
@@ -38,6 +42,7 @@
           2 warm-up sets of 15-20 reps
           2 sets to failure in 15-20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hack Squat</name>
@@ -45,10 +50,12 @@
           2 warm-up sets of 15-20 reps
           3 sets to failure in 20-30 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -63,6 +70,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Flat Dumbbell Press</name>
@@ -70,30 +78,37 @@
           3 warm-up sets of 6-10 reps
           3 sets to failure in 6-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Flyes</name>
         <description>2 sets to failure in 8-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Straight-Arm Pullover</name>
         <description>2 sets to failure in 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Rope Extension</name>
         <description>3 sets to failure in 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Lying Cable Extensions</name>
         <description>3 sets to failure in 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Overhead Dumbbell Extension</name>
         <description>3 sets to failure in 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -116,6 +131,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse-Grip Pulldowns</name>
@@ -123,6 +139,7 @@
           1 warm up set of 8-10 reps
           3 sets of 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Bent Over Barbell Row</name>
@@ -130,6 +147,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hyperextensions (Back Extensions)</name>
@@ -137,10 +155,12 @@
           1 warm up set of 10-12 reps
           2 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Straight-Arm Pulldown</name>
         <description>7 sets of 10-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Concentration Curls</name>
@@ -148,18 +168,22 @@
           2 warm up sets of 12-15 reps, per arm
           3 sets of 12-15 reps, per arm
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Alternate Bicep Curl</name>
         <description>3 sets of 12-15 reps, per arm</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Curls</name>
         <description>3 sets of 15-20 reps, per arm</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -174,6 +198,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Military Press</name>
@@ -181,6 +206,7 @@
           2 warm up sets of 6-8 reps
           3 sets of 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
@@ -188,30 +214,37 @@
           1 warm up sets of 12-15 reps
           3 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Upright Barbell Row</name>
         <description>3 sets of 7 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Lying Rear Delt Raise</name>
         <description>7 sets of 12-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Weighted Sit-Up</name>
         <description>3 sets of 15-20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Seated Calf Raise</name>
         <description>3 sets of 20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
         <description>3 sets of 18-20 reps, 1 foot at a time</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -234,38 +267,47 @@
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
         <description>2 sets of 30 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Hamstring Curls</name>
         <description>2 sets of 20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Walking Lunges</name>
         <description>3 sets of 40 steps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Standing Leg Curl</name>
         <description>3 sets of 15-20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
         <description>3 sets of 50 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
         <description>1 sets of 30 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Hamstring Curls</name>
         <description>1 sets of 20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -280,6 +322,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Flat Dumbbell Press</name>
@@ -287,6 +330,7 @@
           2 warm-up sets of 8-10 reps
           2 sets to failure in 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Flat Bench Flyes</name>
@@ -294,38 +338,47 @@
           1 warm-up set of 8-10 reps
           3 sets to failure in 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Cable Flyes</name>
         <description>1 warm-up set of 8-10 reps, 2 sets to failure in 8-10 reps, 1 drop set to failure</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Crossover</name>
         <description>1 warm-up set of 8-10 reps, 2 sets to failure in 8-10 reps, 1 drop set to failure</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Tricep Cable Pushdowns</name>
         <description>1 warm-up set of 8-10 reps, 2 sets to failure in 16-18 reps, 1 drop set to failure</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse Cable Pushdowns</name>
         <description>1 warm-up set of 8-10 reps, 2 sets to failure in 16-18 reps, 1 drop set to failure</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Head Smackers</name>
         <description>3 sets of 7 reps</description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>Skull Crushers</name>
         <description>3 sets of 7 reps</description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Rockers</name>
         <description>3 sets of 7 reps</description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 minutes</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -348,6 +401,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Overhead Shoulder Press</name>
@@ -355,6 +409,7 @@
           2 warm up sets of 8-10 reps
           3 sets to failure in 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Machine Shoulder (Military) Press</name>
@@ -362,6 +417,7 @@
           1 warm up set of 8-10 reps
           2 sets to failure in 8-10 reps, 1 drop set to failure
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
@@ -369,10 +425,12 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 12-16 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
         <description>3 sets to failure in 12-15 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shrug</name>
@@ -380,6 +438,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 12-20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse Machine Flyes</name>
@@ -387,10 +446,12 @@
           1 warm up set of 8-10 reps
           7 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -405,6 +466,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
@@ -412,18 +474,22 @@
           2 warm up sets of 8-10 reps
           4 sets to failure in 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Donkey Calf Raises</name>
         <description>4 sets to failure in 18-20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hanging Leg Raise</name>
         <description>3 sets to failure in 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -438,6 +504,7 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse-Grip Pulldowns</name>
@@ -445,6 +512,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Wide-Grip Lat Pulldown</name>
@@ -452,6 +520,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 8-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>One-Arm Dumbbell Row</name>
@@ -459,6 +528,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 8-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Romanian Deadlift</name>
@@ -466,6 +536,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 16 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hammer Curls</name>
@@ -473,6 +544,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 18-20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Machine Preacher Curls</name>
@@ -480,6 +552,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 14-16 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>EZ-Bar Curl</name>
@@ -487,10 +560,12 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -513,26 +588,32 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
         <description>3 sets to failure in 18-20 full and partial reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
         <description>3 sets to failure in 12-15 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Hack Squat</name>
         <description>4 sets to failure in 50 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Standing Leg Curl</name>
         <description>4 sets to failure in 18-20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -547,10 +628,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
@@ -558,6 +641,7 @@
           2 warm up sets of 8-10 reps
           2 sets to failure in 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Straight-Arm Dumbbell Pullover</name>
@@ -565,6 +649,7 @@
           1 warm up set of 8-10 reps
           2 sets to failure in 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Flyes</name>
@@ -572,6 +657,7 @@
           2 sets to failure in 10-12 reps
           1 drop set to failure
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Rope Overhead Triceps Extension</name>
@@ -579,30 +665,37 @@
           1 set to failure in 12-15 reps
           2 drop sets to failure
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dips - Triceps Version</name>
         <description>3 sets to failure in 12-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Lying Dumbbell Tricep Extension</name>
         <description>3 sets to failure in 10-12 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Pushups (Close and Wide Hand Positions)</name>
         <description>3 sets to failure</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Bench Dips</name>
         <description>3 sets to failure in 12-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -617,10 +710,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse-Grip Pulldowns</name>
@@ -628,18 +723,22 @@
           1 warm up set of 10-12 reps
           3 sets to failure in 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Wide-Grip Lat Pulldown</name>
         <description>3 sets to failure in 12-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Bent Over Two-Dumbbell Row</name>
         <description>3 sets to failure in 15-17 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>V-Bar Pullup</name>
         <description>3 sets to failure in 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Alternate Bicep Curl</name>
@@ -647,6 +746,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 12-14 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>One Arm Dumbbell Preacher Curl</name>
@@ -654,18 +754,22 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 12-14 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Spider Curl</name>
         <description>3 sets to failure in 15-20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -696,18 +800,22 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
         <description>3 sets to failure in 12-15 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Front Dumbbell Raise</name>
         <description>2-3 sets to failure in 12-15 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Machine Shoulder (Military) Press</name>
@@ -715,10 +823,12 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Bent-Over Rear Delt Raise</name>
         <description>7 sets to failure in 12-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
@@ -726,18 +836,22 @@
           1 warm up set of 8-10 reps
           5 sets to failure in 20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Sit-Up</name>
         <description>3 sets to failure</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -752,10 +866,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
@@ -763,6 +879,7 @@
           2 warm up sets of 8-10 reps
           1 drop set of 100 total reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
@@ -770,6 +887,7 @@
           2 warm up sets of 8-20 reps
           3 rest-pause sets to failure in 30 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Leg Curl</name>
@@ -777,6 +895,7 @@
           1 warm up set of 8-10 reps
           3 sets to failure in 20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hack Squat</name>
@@ -784,14 +903,17 @@
           2 warm up sets of 8-10 reps
           3 rest-pause sets to failure in 30 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -822,10 +944,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse-Grip Hammer Pulldowns</name>
@@ -833,6 +957,7 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Bent Over Barbell Row</name>
@@ -840,6 +965,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>One-Arm Dumbbell Row</name>
@@ -847,6 +973,7 @@
           1 warm up set of 8-10 reps
           2 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse-Grip Pulldowns</name>
@@ -854,6 +981,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Machine Preacher Curls</name>
@@ -861,18 +989,22 @@
           1 warm up set of 8-10 reps
           4 triple drop sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>EZ-Bar Curl</name>
         <description>4 triple drop sets of 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -887,10 +1019,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
@@ -898,6 +1032,7 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps + plus partial reps to failure
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shoulder Press</name>
@@ -905,18 +1040,22 @@
           1 warm up set of 8-10 reps
           3 drop sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Lying Rear Lateral Raise</name>
         <description>1 set of 12 reps + 20 partial reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -931,10 +1070,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Butterfly</name>
@@ -942,22 +1083,27 @@
           2 warm up sets of 8-10 reps
           3 triple drop sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Machine Bench Press</name>
         <description>3 triple drop sets of 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Flyes</name>
         <description>3 triple drop sets of 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -988,18 +1134,22 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
         <description>3 sets of 85 reps: 20 reps with feet at bottom of plate, 20 reps 1 inch up, 20 reps 1 inch up, 25 reps at top of plate</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Barbell Squat</name>
         <description>3 sets of 20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
@@ -1007,14 +1157,17 @@
           3 triple drop sets of 12-15 reps
           1 burnout set with partial reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1029,10 +1182,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Triceps Pushdown - V-Bar Attachment</name>
@@ -1040,6 +1195,7 @@
           1 warm up set of 8-10 reps
           3 triple drop sets of 15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Close-Grip Barbell Bench Press</name>
@@ -1047,6 +1203,7 @@
           2 warm up sets of 8-10 reps
           3 triple drop sets of 12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Rope Overhead Triceps Extension</name>
@@ -1054,10 +1211,12 @@
           2 warm up sets of 8-10 reps
           3 triple drop sets of 10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
         <description>7 sets of 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Weighted Sit-Ups</name>
@@ -1065,18 +1224,22 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hanging Leg Raise</name>
         <description>2 sets of 15-17 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1107,10 +1270,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Overhead Shoulder Press</name>
@@ -1118,6 +1283,7 @@
           2 warm up sets of 10-12 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Overhead Shoulder Press</name>
@@ -1125,10 +1291,12 @@
           1 set of 8-10 reps
           1 drop set of 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Side Lateral Raise</name>
         <description>4 drop sets of 10 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Shrug</name>
@@ -1136,14 +1304,17 @@
           1 warm up set of 8-10 reps
           3 sets of 18-20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse Machine Flyes</name>
         <description>7 sets of 15 reps + + partial reps until failure</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1158,10 +1329,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
@@ -1169,6 +1342,7 @@
           2 warm up sets
           2 sets of 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Press</name>
@@ -1176,6 +1350,7 @@
           2 warm up sets
           2 sets of 10 reps, 1 triple drop set of 10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Butterfly</name>
@@ -1183,6 +1358,7 @@
           2 warm up sets
           3 drop sets of 8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Triceps Pushdown - Rope Attachment</name>
@@ -1190,6 +1366,7 @@
           2 warm up sets
           3 drop sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Rope Overhead Triceps Extension</name>
@@ -1197,6 +1374,7 @@
           2 warm up sets
           3 drop sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Close-Grip Bench Press</name>
@@ -1204,14 +1382,17 @@
           2 warm up sets
           2 sets of 12 reps, 1 set of 12 reps + partial reps until failure
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1226,10 +1407,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Leg Curl</name>
@@ -1237,6 +1420,7 @@
           2 warm up sets of 8-10 reps
           4 drop sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Stiff-Legged Barbell Deadlift</name>
@@ -1244,6 +1428,7 @@
           2 warm up sets of 8-10 reps
           2 sets of 16-18 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
@@ -1251,6 +1436,7 @@
           2 warm up sets of 8-10 reps
           2 sets of 20 reps to failure
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
@@ -1258,6 +1444,7 @@
           2 warm up sets of 8-10 reps
           3 triple drop sets of 16-20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
@@ -1265,6 +1452,7 @@
           1 warm up set of 8-10 reps
           3 drop sets of 16 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
@@ -1272,14 +1460,17 @@
           1 warm up set of 8-10 reps
           3 dropsets of 20 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1294,30 +1485,37 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Chin-Up</name>
         <description>3 sets of 16-20 reps</description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>Wide-Grip Lat Pulldown</name>
         <description>3 sets of 6-10 reps</description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Seated Cable Rows</name>
         <description>3 drop sets of 8-10 reps</description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Bent Over Barbell Row</name>
         <description>3 sets of 12 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Hyperextensions (Back Extensions)</name>
         <description>3 drop sets of 12 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Dumbbell Alternate Bicep Curl</name>
@@ -1325,26 +1523,32 @@
           1 set of 20 reps
           2 sets of 8 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Overhead Cable Curl</name>
         <description>3 drop sets of 8 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Lying Cable Curl</name>
         <description>3 drop sets of 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Weighted Sit-Ups</name>
         <description>3 sets of 10-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1375,10 +1579,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
@@ -1386,6 +1592,7 @@
           2 warm up sets of 8-10 reps
           3 triple drop sets of 10-12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Front Plate Raise</name>
@@ -1393,6 +1600,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Military  Press</name>
@@ -1400,6 +1608,7 @@
           2 warm up sets of 8-10 reps
           3 triple drop sets of 8-10 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Seated Bent-Over Rear Delt Raise</name>
@@ -1407,26 +1616,32 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shrug</name>
         <description>3 sets of 18-20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Calf Raise</name>
         <description>2 triple drop sets of 10-12 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
         <description>2 sets to failure</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1441,10 +1656,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
@@ -1452,6 +1669,7 @@
           5 warm up sets of 8-10 reps
           2 sets of 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Decline Barbell Bench Press</name>
@@ -1459,6 +1677,7 @@
           2 warm up sets of 8-10 reps
           1 triple drop set of 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Flyes</name>
@@ -1466,6 +1685,7 @@
           1 set of 8-10 reps
           1 double-dropset of 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Crossover</name>
@@ -1473,14 +1693,17 @@
           2 sets of 10-12 reps
           1 drop set of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Lying Close-Grip Barbell Triceps Extension Behind The Head</name>
         <description>3 sets of 10-12 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Bent-Arm Barbell Pullover</name>
         <description>3 sets of 8-10 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Seated Triceps Press</name>
@@ -1488,22 +1711,27 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Bench Dips</name>
         <description>3 drop sets of 10-12 reps + partial reps until failure</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Reverse Crunch</name>
         <description>3 sets of 12-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1518,42 +1746,52 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
         <description>3 sets of 22-25 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Barbell Squat</name>
         <description>3 sets of 8-10 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
         <description>3 sets of 18-20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Standing Leg Curl</name>
         <description>3 sets of 8-10 slow reps followed by 10 quick reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Hack Squat</name>
         <description>3 sets of 20-30 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Unilateral Leg Extensions</name>
         <description>1 set of 20 reps, 1 set of 10 reps, 1 set of 5 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1576,10 +1814,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse Grip Hammer Pulldowns</name>
@@ -1587,6 +1827,7 @@
           2 warm up sets of 8-10 reps
           3 sets of 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>One-Arm Dumbbell Row</name>
@@ -1594,6 +1835,7 @@
           2 warm up sets of 8-10 reps
           3 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Bent Over Barbell Row</name>
@@ -1601,10 +1843,12 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse Grip Pulldowns</name>
         <description>3 sets of 12-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Spider Curl</name>
@@ -1612,6 +1856,7 @@
           1 warm up set of 8-10 reps
           3 sets of 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Concentration Curls</name>
@@ -1619,18 +1864,22 @@
           1 warm up set of 8-10 reps
           3 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Machine Preacher Curls</name>
         <description>7 sets of 10-15 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1645,10 +1894,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shoulder Press</name>
@@ -1656,6 +1907,7 @@
           2 warm up sets of 8-10 reps
           2 sets of 6-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
@@ -1663,6 +1915,7 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Front Dumbbell Raise</name>
@@ -1670,32 +1923,39 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Low-Pulley Deltoid Raise</name>
         <description>3 sets of 8-10 reps + 3 negative reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Upright Barbell Row</name>
         <description>
           7 sets of 12-15 reps (<a href="http://www.bodybuilding.com/fun/hany-rambod-fst-7-interview.htm">FST7</a>)
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Calf Press On The Leg Press Machine</name>
         <description>3 sets of 20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Modified Crunches</name>
         <description>3 sets of 20-30 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1718,10 +1978,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Flyes</name>
@@ -1729,6 +1991,7 @@
           2 warm up sets of 8-10 reps
           2 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Machine Bench Press</name>
@@ -1736,14 +1999,17 @@
           2 warm up sets of 8-10 reps
           2 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Modified Pushups</name>
         <description>2 sets of 10 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dip Machine</name>
         <description>3 sets of 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Rope Overhead Triceps Extension</name>
@@ -1751,6 +2017,7 @@
           1 warm up set of 8-10 reps
           3 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Triceps Pushdown</name>
@@ -1758,14 +2025,17 @@
           1 warm up set of 8-10 reps
           2 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1780,10 +2050,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
@@ -1791,14 +2063,17 @@
           2 warm up sets of 8-10 reps
           3 sets of 20 'One And A Half' reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Partial Leg Extensions</name>
         <description>2 sets of 50 reps (dropping weight every 10 reps)</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
         <description>2 sets of 60 reps (adjust feet position every 20 reps)</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Lunges</name>
@@ -1806,6 +2081,7 @@
           1 warm up set of 8-10 reps with no weight
           2 sets to failure
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Stiff-Legged Deadlift</name>
@@ -1813,14 +2089,17 @@
           1 warm up set of 8-10 reps
           3 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1851,10 +2130,12 @@
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Chin-Up</name>
@@ -1862,6 +2143,7 @@
           1 warm up set of 8-10 reps
           3 sets of 15 reps
         </description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>Seated Cable Rows</name>
@@ -1869,6 +2151,7 @@
           1 warm up set of 8-10 reps
           3 sets of 15 reps
         </description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Wide-Grip Pulldown Behind The Neck</name>
@@ -1876,6 +2159,7 @@
           1 warm up set of 8-10 reps
           3 sets of 15 reps
         </description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Smith Machine Bent Over Row</name>
@@ -1883,6 +2167,7 @@
           1 warm-up set of 8-10 reps
           3 sets of 8-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hammer Curls</name>
@@ -1890,6 +2175,7 @@
           2 warm up sets of 8-10 reps
           3 sets of 20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Barbell Curl</name>
@@ -1897,18 +2183,22 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cable Hammer Curls - Rope Attachment</name>
         <description>3 sets of 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>20 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1931,10 +2221,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
@@ -1942,6 +2234,7 @@
           5 sets of 50,40,30,20,10 reps
           5 drop sets of 10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hammer Incline Shoulder Press</name>
@@ -1949,6 +2242,7 @@
           2 warm up sets of 8-10 reps
           1 triple drop set of 6-10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Barbell Shrug</name>
@@ -1956,26 +2250,32 @@
           1 warm up set of 8-10 reps
           2 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Calf Raise</name>
         <description>3 sets of 10-12 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Calf Press On The Leg Press Machine</name>
         <description>3 sets of 10-12 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Sit-Up</name>
         <description>3 sets of 30 reps (10 full reps, 10 bottom half-reps, 10 top half-reps)</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -1990,18 +2290,22 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
         <description>1 set of 20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
         <description>1 set of 40 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Barbell Squat</name>
@@ -2009,22 +2313,27 @@
           1 warm up set of 8-10 reps
           3 sets of 40,30,10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
         <description>2 set of 20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
         <description>2 set of 20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2039,34 +2348,42 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Pullups</name>
         <description>3 sets of 16-20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
         <description>2 sets of 8-10 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Seated Cable Rows</name>
         <description>3 sets of 12-16 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Press</name>
         <description>2 sets 8-12 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Reverse Grip Cable Pulldowns</name>
         <description>2 sets of 8-10 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Flyes</name>
         <description>2 sets of 8-10 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Partial Barbell Deadlift</name>
@@ -2074,14 +2391,17 @@
           1 warm up set of 8-10 reps
           1 set of 30 reps, 1 drop set of 30 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2096,10 +2416,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Alternate Bicep Curl</name>
@@ -2107,18 +2429,22 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Skullcrushers</name>
         <description>5 sets of 50,40,30,20,10 reps; 5 sets of 10,20,30,40,50 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2157,14 +2483,17 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
         <description>10 sets of 15-30 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Decline Crunch</name>
@@ -2172,14 +2501,17 @@
           2 warm up sets of 8-10 reps
           3 sets of 15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Overhead Shoulder Press</name>
         <description>5 sets of 50,40,30,20,10 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Smith Machine Overhead Shoulder Press (Behind the Neck)</name>
         <description>5 sets of 10,20,30,40,50 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Upright Barbell Row (wide grip)</name>
@@ -2187,6 +2519,7 @@
           3 sets of 10,7,5 reps
           1 triple drop set of 6-8 reps
         </description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>Upright Barbell Row (medium grip)</name>
@@ -2194,6 +2527,7 @@
           3 sets of 10,7,5 reps
           1 triple drop set of 6-8 reps
         </description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Upright Barbell Row (narrow grip)</name>
@@ -2201,14 +2535,17 @@
           3 sets of 10,7,5 reps
           1 triple drop set of 6-8 reps
         </description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2223,10 +2560,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
@@ -2234,14 +2573,17 @@
           2 warm up sets of 8-10 reps
           1 triple drop set of 20,10,10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hack Squat</name>
         <description>2 sets of 30 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Barbell Squat</name>
         <description>2 sets of 10 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Standing Leg Curl</name>
@@ -2249,18 +2591,22 @@
           2 sets of 16-20 reps
           1 triple drop set of 16-20 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Stiff-Legged Dumbbell Deadlift</name>
         <description>3 sets of 10-12 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2275,10 +2621,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Bent-Arm Dumbbell Pullover</name>
@@ -2286,6 +2634,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
@@ -2293,6 +2642,7 @@
           1 warm up set of 8-10 reps
           3 sets of 6-8 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Flyes - With A Twist</name>
@@ -2300,6 +2650,7 @@
           1 warm up set of 8-10 reps
           2 sets of 10-12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Bent Over Barbell Row</name>
@@ -2307,6 +2658,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cable Crossover</name>
@@ -2314,6 +2666,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>One-Arm Dumbbell Row</name>
@@ -2321,6 +2674,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Underhand Cable Pulldowns</name>
@@ -2328,6 +2682,7 @@
           1 warm up set of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
@@ -2335,14 +2690,17 @@
           1 warm up set of 8-10 reps
           3 sets of 6-8 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2365,10 +2723,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Machine Preacher Curls</name>
@@ -2376,6 +2736,7 @@
           2 sets of 10-12 reps
           1 triple drop set of 10-12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Dips - Triceps Version</name>
@@ -2383,6 +2744,7 @@
           2 sets of 10-12 reps
           1 triple drop of 10-12 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Triceps Pushdown - Rope Attachment</name>
@@ -2390,6 +2752,7 @@
           1 set of 12 reps, 1 drop set of 12 reps
           1 set of 12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Barbell Curl</name>
@@ -2397,30 +2760,37 @@
           1 set of 12 reps, 1 drop set of 12 reps
           1 set of 12 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Close-Grip Barbell Bench Press</name>
         <description>3 sets of 10-12 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Hammer Curls</name>
         <description>3 sets of 10-12 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Standing Biceps Cable Curl</name>
         <description>3 sets of 12 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Triceps Pushdown</name>
         <description>3 sets of 12 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2435,10 +2805,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shoulder Press</name>
@@ -2446,6 +2818,7 @@
           2 warm up sets of 8-10 reps
           3 sets of 10-12 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
@@ -2453,6 +2826,7 @@
           2 warm up sets of 8-10 reps
           4 sets of 10-12 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Reverse Flyes</name>
@@ -2460,6 +2834,7 @@
           2 warm up sets of 8-10 reps
           4 sets of 10-12 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shrug</name>
@@ -2467,6 +2842,7 @@
           1 warm up set of 8-10 reps
           4 sets of 20 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Calf Raise</name>
@@ -2474,14 +2850,17 @@
           1 warm up set of 8-10 reps
           3 sets of 20 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Weighted Sit-Ups</name>
         <description>3 sets of 15-17 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Calf Press On The Leg Press Machine</name>
         <description>3 sets of 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Lying Leg Raise</name>
@@ -2489,14 +2868,17 @@
           1 warm up set of 8-10 reps
           3 sets of 12-15 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2511,10 +2893,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
@@ -2522,6 +2906,7 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
@@ -2529,6 +2914,7 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Dumbbell Lunges</name>
@@ -2536,14 +2922,17 @@
           1 warm up set of 8-10 reps
           3 sets of 10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2566,10 +2955,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
@@ -2577,6 +2968,7 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Bent Over Two-Dumbbell Row</name>
@@ -2584,14 +2976,17 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2614,10 +3009,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Box Squat</name>
@@ -2625,10 +3022,12 @@
           1 warm up set of 8-10 reps
           3 sets of 6-8 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Rack Squat</name>
         <description>3 sets of 6 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell One-Arm Shoulder Press</name>
@@ -2636,26 +3035,32 @@
           1 warm up set of 8-10 reps
           3 sets of 10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Side Lateral Raise</name>
         <description>2 sets of 15-20 reps</description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>One-Arm Incline Lateral Raise</name>
         <description>2 sets of 15-20 reps</description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Cable Seated Lateral Raise</name>
         <description>2 sets of 15-20 reps</description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2670,38 +3075,47 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Calf Raises</name>
         <description>4 sets of 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>45 degree Calf Press On The Leg Press Machine</name>
         <description>4 sets of 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Hanging Leg Raise</name>
         <description>4 sets of 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Decline Crunch</name>
         <description>4 sets of 20 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Standing Barbell Twist</name>
         <description>1 set of 1 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2716,58 +3130,72 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse Grip Bent-Over Rows</name>
         <description>3 sets of 6-10 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Rack Deadlifts</name>
         <description>3 sets of 4-6 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Straight-Arm Dumbbell Pullover</name>
         <description>3 sets of 10-12 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>One-Arm Dumbbell Row</name>
         <description>3 sets of 10-12 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Curl</name>
         <description>3 sets of 8-12 reps</description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>Cable Hammer Curls - Rope Attachment</name>
         <description>3 sets of 8-12 reps</description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Chin-Up</name>
         <description>3 sets of 8-12 reps</description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Triceps Pushdown</name>
         <description>3 sets of 20 reps</description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>Cable Rope Overhead Triceps Extension</name>
         <description>3 sets of 12 reps</description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Dips - Triceps Version</name>
         <description>3 sets of 10 reps</description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2798,10 +3226,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
@@ -2809,14 +3239,17 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2831,10 +3264,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Reverse Grip Cable Pulldowns</name>
@@ -2842,6 +3277,7 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Incline Dumbbell Press</name>
@@ -2849,14 +3285,17 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2871,38 +3310,47 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Press Behind Neck</name>
         <description>5 sets of 50,40,30,20,10 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Military Press</name>
         <description>5 sets of 10,20,30,40,50 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Upright Barbell Row</name>
         <description>3 sets of 15-20 reps</description>
+        <type>giant1</type>
       </exercise>
       <exercise>
         <name>Seated Calf Raise</name>
         <description>3 sets of 15-20 reps</description>
+        <type>giant2</type>
       </exercise>
       <exercise>
         <name>Weighted Sit-Up</name>
         <description>3 sets of 15-20 reps</description>
+        <type>giant3</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2933,10 +3381,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Leg Press</name>
@@ -2944,22 +3394,27 @@
           2 warm up sets of 8-10 reps
           5 sets of 50,40,30,20,10 reps
         </description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
         <description>5 sets of 15-20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
         <description>5 sets of 15-20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -2974,10 +3429,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Bench Press</name>
@@ -2985,6 +3442,7 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Bent Over Two-Dumbbell Row</name>
@@ -2992,14 +3450,17 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -3014,38 +3475,47 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shoulder Press</name>
         <description>5 sets of 50,40,30,20,10 reps</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shoulder Press</name>
         <description>5 sets of 50,40,30,20,10 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Dumbbell Shrug</name>
         <description>5 sets of 20-25 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Decline Reverse Crunch</name>
         <description>3 sets of 15-20 reps</description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Seated Calf Raise</name>
         <description>3 sets of 15-20 reps</description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -3076,10 +3546,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Triceps Pushdown - V-Bar Attachment</name>
@@ -3087,6 +3559,7 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Standing Biceps Cable Curl</name>
@@ -3094,14 +3567,17 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>
@@ -3116,10 +3592,12 @@
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Leg Curl</name>
@@ -3127,6 +3605,7 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset1</type>
       </exercise>
       <exercise>
         <name>Leg Extensions</name>
@@ -3134,14 +3613,17 @@
           5 sets of 50,40,30,20,10 reps
           5 sets of 10,20,30,40,50 reps
         </description>
+        <type>superset2</type>
       </exercise>
       <exercise>
         <name>Cardio</name>
         <description>25 min</description>
+        <type>normal</type>
       </exercise>
       <exercise>
         <name>Seated Barbell Twist</name>
         <description>150 reps, per side</description>
+        <type>normal</type>
       </exercise>
     </exercises>
   </day>

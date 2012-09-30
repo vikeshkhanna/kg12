@@ -63,7 +63,7 @@ namespace WorkoutHelper
                     foreach (XElement exec in exerciseRoot.Nodes())
                     {
                         Exercise exercise = new Exercise();
-                        exercise.Name = (exec.FirstNode as XElement).Value.ToString();
+                        exercise.Name = (exec.Descendants("name").Single() as XElement).Value.ToString();
                         
                         try
                         {
@@ -101,13 +101,15 @@ namespace WorkoutHelper
                     {
                         DayExercise dayExercise = new DayExercise();
                         
-                        string exerciseName = (exec.FirstNode as XElement).Value.ToString();
+                        string exerciseName = (exec.Descendants("name").Single() as XElement).Value.ToString();
+                        string type = (exec.Descendants("type").Single() as XElement).Value.ToString();
                         Exercise exercise =  exercisesInDB.Single(ex => ex.Name == exerciseName);
                         Day day = daysInDB.Single(d => d.Num == num);
  
                         dayExercise.ExerciseId = exercise.ExerciseId;
                         dayExercise.DayId = day.DayId;
-                        dayExercise.Description = (exec.LastNode as XElement).Value.ToString().Trim(new char[] { '\n', ' ' }); ;
+                        dayExercise.ExerciseSetType = decodeSetType(type);
+                        dayExercise.Description = (exec.Descendants("description").Single() as XElement).Value.ToString().Trim(new char[] { '\n', ' ' }); ;
                         Regex rgx = new Regex("\n\\s*");
                         dayExercise.Description = rgx.Replace(dayExercise.Description, "\n");
                         this.workoutDB.DayExercises.InsertOnSubmit(dayExercise);
@@ -118,6 +120,27 @@ namespace WorkoutHelper
             this.workoutDB.SubmitChanges();
             // Call the base method.
             base.OnNavigatedTo(e);
+        }
+
+        private SetType decodeSetType(string type)
+        {
+            switch (type)
+            {
+                case "normal":
+                    return SetType.Normal;
+                case "superset1":
+                    return SetType.Superset1;
+                case "superset2":
+                    return SetType.Superset2;
+                case "giant1":
+                    return SetType.Giant1;
+                case "giant2":
+                    return SetType.Giant2;
+                case "giant3":
+                    return SetType.Giant3;
+                default:
+                    return SetType.Normal;
+            }
         }
 
         #region INotifyPropertyChanged Members
@@ -344,6 +367,16 @@ namespace WorkoutHelper
 
     }
 
+    public enum SetType
+    { 
+        Normal=0,
+        Superset1,
+        Superset2,
+        Giant1,
+        Giant2, 
+        Giant3
+    }
+
     [Table]
     public class DayExercise
     {
@@ -351,6 +384,8 @@ namespace WorkoutHelper
         private string description;
         private int exerciseId;
         private int dayId;
+        private SetType exerciseSetType;
+
 
         [Column(IsPrimaryKey = true, IsDbGenerated = true, DbType = "INT NOT NULL Identity", CanBeNull = false, AutoSync = AutoSync.OnInsert)]
         public int DayExerciseId
@@ -406,8 +441,6 @@ namespace WorkoutHelper
             }
         }
 
-
-
         [Column]
         public int ExerciseId
         {
@@ -422,6 +455,24 @@ namespace WorkoutHelper
                     NotifyPropertyChanging("ExerciseId");
                     this.exerciseId = value;
                     NotifyPropertyChanged("ExerciseId");
+                }
+            }
+        }
+
+        [Column]
+        public SetType ExerciseSetType
+        {
+            get
+            {
+                return this.exerciseSetType;
+            }
+            set
+            {
+                if (this.exerciseSetType != value)
+                {
+                    NotifyPropertyChanging("ExerciseSetType");
+                    this.exerciseSetType = value;
+                    NotifyPropertyChanged("ExerciseSetType");
                 }
             }
         }
