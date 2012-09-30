@@ -24,13 +24,18 @@ namespace Workout
 
             // Set the data context of the listbox control to the sample data
             DataContext = App.ViewModel;
-            this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
         // Load data for the ViewModel Items
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
             App.ViewModel.LoadData();
+
+            Day day = Utils.GetCurrentDay();
+            string url = String.Format("<html><head><style>body{{background:black; width:100%; height:100%}}</style></head><body><div style='width:100%;height:100%' class=\"BBCOMVideoEmbed\" data-dimensions=\"1024x768\" data-video-key=\"{0}\" data-autoplay=\"false\" data-thumbnail-url=\"{1}\"><script type=\"text/javascript\" src=\"http://assets.bodybuilding.com/videos/javascript/min/external-video-embed.js\"></script></div></body></html>",
+                day.VideoKey, day.ThumbnailUrl);
+
+            this.webBrowserControl.NavigateToString(url);
         }
 
         private void settingsButton_Click(object sender, EventArgs e)
@@ -103,7 +108,7 @@ namespace Workout
 
         private void aboutAppButton_Click(object sender, EventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("/AboutPage.xaml", UriKind.Relative));
         }
 
         private void openTodayAppButton_Click(object sender, EventArgs e)
@@ -119,11 +124,7 @@ namespace Workout
             {
                 if ((e.AddedItems[0] as PanoramaItem).Header.ToString() == "video")
                 {
-                    Day day = Utils.GetCurrentDay();
-                    string url = String.Format("<html><head><style>body{{background:black; width:100%; height:100%}}</style></head><body><div style='width:100%;height:100%' class=\"BBCOMVideoEmbed\" data-dimensions=\"1024x768\" data-video-key=\"{0}\" data-autoplay=\"false\" data-thumbnail-url=\"{1}\"><script type=\"text/javascript\" src=\"http://assets.bodybuilding.com/videos/javascript/min/external-video-embed.js\"></script></div></body></html>",
-                        day.VideoKey, day.ThumbnailUrl);
-
-                    this.webBrowserControl.NavigateToString(url);
+                   //Placeholder for plausible performance improvement in video loading
                 }
             }
         }

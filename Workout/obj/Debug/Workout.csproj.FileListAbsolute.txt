@@ -21,3 +21,4 @@ C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workou
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
 C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\BrowserPage.g.i.cs
+C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\AboutPage.g.i.cs

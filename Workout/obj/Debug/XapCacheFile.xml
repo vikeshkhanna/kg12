@@ -1,13 +1,14 @@
-﻿<xapCache source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Workout.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="9/30/2012 1:27:44 AM">
+﻿<xapCache source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\Workout.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="9/30/2012 2:26:15 AM">
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="9/29/2012 8:48:06 PM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\large_tile.jpg" archivePath="Images\large_tile.jpg" lastWriteTime="9/29/2012 8:43:21 PM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\large_tile.jpg" archivePath="Images\large_tile.jpg" lastWriteTime="9/29/2012 8:43:21 PM" />
-  <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\Workout.dll" archivePath="Workout.dll" lastWriteTime="9/30/2012 1:27:43 AM" />
+  <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\obj\Debug\Workout.dll" archivePath="Workout.dll" lastWriteTime="9/30/2012 2:26:12 AM" />
   <file source="c:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="3/19/2012 4:29:06 PM" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Toolkit\Oct11\Bin\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="10/6/2011 11:33:14 AM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\WorkoutHelper\obj\Debug\WorkoutHelper.dll" archivePath="WorkoutHelper.dll" lastWriteTime="9/29/2012 11:49:43 PM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="9/26/2012 12:16:55 AM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Background.png" archivePath="Background.png" lastWriteTime="9/26/2012 12:16:55 AM" />
+  <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\bblogo.jpg" archivePath="Images\bblogo.jpg" lastWriteTime="9/30/2012 2:12:51 AM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\bg1.jpg" archivePath="Images\bg1.jpg" lastWriteTime="9/27/2012 2:04:30 AM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\appbar.delete.rest.png" archivePath="Images\appbar.delete.rest.png" lastWriteTime="9/28/2012 5:36:27 PM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\appbar.edit.rest.png" archivePath="Images\appbar.edit.rest.png" lastWriteTime="9/28/2012 5:36:27 PM" />
@@ -17,7 +18,10 @@
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\appbar.cancel.rest.png" archivePath="Images\appbar.cancel.rest.png" lastWriteTime="9/28/2012 5:49:18 PM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\bg2.jpg" archivePath="Images\bg2.jpg" lastWriteTime="9/29/2012 8:35:57 PM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\bg3.jpg" archivePath="Images\bg3.jpg" lastWriteTime="9/30/2012 1:05:20 AM" />
+  <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\facebook.jpg" archivePath="Images\facebook.jpg" lastWriteTime="9/30/2012 1:42:58 AM" />
+  <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\quora.jpg" archivePath="Images\quora.jpg" lastWriteTime="9/30/2012 1:42:58 AM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\small_tile.jpg" archivePath="Images\small_tile.jpg" lastWriteTime="9/29/2012 8:43:21 PM" />
+  <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Images\twitter.png" archivePath="Images\twitter.png" lastWriteTime="9/30/2012 1:42:58 AM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\workout.sdf" archivePath="workout.sdf" lastWriteTime="9/29/2012 11:54:12 PM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Media\45_degree_calf_press_on_the_leg_press_machine_0.jpg" archivePath="Media\45_degree_calf_press_on_the_leg_press_machine_0.jpg" lastWriteTime="9/26/2012 12:35:40 AM" />
   <file source="C:\Users\khann_000\Documents\Visual Studio 2010\Projects\KrisGethin12Week\Workout\Media\45_degree_calf_press_on_the_leg_press_machine_1.jpg" archivePath="Media\45_degree_calf_press_on_the_leg_press_machine_1.jpg" lastWriteTime="9/26/2012 12:35:40 AM" />

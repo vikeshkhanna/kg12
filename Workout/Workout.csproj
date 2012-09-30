@@ -73,6 +73,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
@@ -98,6 +101,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </DesignData>
+    <Page Include="AboutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SettingsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -114,6 +121,7 @@
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\bblogo.jpg" />
     <Content Include="Images\bg1.jpg" />
     <Content Include="Images\appbar.delete.rest.png" />
     <Content Include="Images\appbar.edit.rest.png" />
@@ -123,12 +131,14 @@
     <Content Include="Images\appbar.cancel.rest.png" />
     <Content Include="Images\bg2.jpg" />
     <Content Include="Images\bg3.jpg" />
+    <Content Include="Images\facebook.jpg" />
     <Content Include="Images\large_tile.jpg" />
+    <Content Include="Images\quora.jpg" />
     <Content Include="Images\small_tile.jpg" />
+    <Content Include="Images\twitter.png" />
     <Content Include="workout.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="PanoramaBackground.png" />
     <Content Include="Media\45_degree_calf_press_on_the_leg_press_machine_0.jpg" />
     <Content Include="Media\45_degree_calf_press_on_the_leg_press_machine_1.jpg" />
     <Content Include="Media\barbell_curl_0.jpg" />
