@@ -115,13 +115,14 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\bg1.jpg" />
-    <Resource Include="Images\appbar.delete.rest.png" />
-    <Resource Include="Images\appbar.edit.rest.png" />
-    <Resource Include="Images\appbar.feature.settings.rest.png" />
-    <Resource Include="Images\appbar.new.rest.png" />
-    <Resource Include="Images\appbar.save.rest.png" />
-    <Resource Include="Images\appbar.cancel.rest.png" />
+    <Content Include="Images\appbar.delete.rest.png" />
+    <Content Include="Images\appbar.edit.rest.png" />
+    <Content Include="Images\appbar.feature.settings.rest.png" />
+    <Content Include="Images\appbar.new.rest.png" />
+    <Content Include="Images\appbar.save.rest.png" />
+    <Content Include="Images\appbar.cancel.rest.png" />
     <Content Include="Images\bg2.jpg" />
+    <Content Include="Images\bg3.jpg" />
     <Content Include="Images\large_tile.jpg" />
     <Content Include="Images\small_tile.jpg" />
     <Content Include="workout.sdf">

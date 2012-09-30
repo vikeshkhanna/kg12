@@ -82,7 +82,7 @@ namespace Workout
             {
                 if (this.backgroundImageBrush == null)
                 {
-                    int MAX_IMAGES = 2;
+                    int MAX_IMAGES = 3;
                     Random random = new Random();
                     int imgNum = random.Next(1, MAX_IMAGES + 1);
                     this.backgroundImageBrush = new ImageBrush();
@@ -132,11 +132,12 @@ namespace Workout
             foreach(DayExercise dayExercise in dayExercises)
             {
                 Exercise exercise = this.workoutDB.Exercises.Single(ex => ex.ExerciseId == dayExercise.ExerciseId);
-                
+                string fullExerciseName = Utils.GetFullyQualifiedExerciseName(dayExercise.ExerciseSetType, exercise.Name);
+
                 this.Items.Add(new WorkingExercise() {
                     WorkoutImage1 = "Media/" + Utils.GetImage(exercise, 0),
                     WorkoutImage2 = "Media/" + Utils.GetImage(exercise, 1), 
-                    ExerciseName = exercise.Name, ExerciseDescription = dayExercise.Description});
+                    ExerciseName = fullExerciseName, ExerciseDescription = dayExercise.Description});
                 // Sample data; replace with real data
             }
             

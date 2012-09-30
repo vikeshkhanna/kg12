@@ -74,6 +74,26 @@ namespace Workout
             return String.Format("http://www.bodybuilding.com/fun/kris-gethin-12-week-daily-trainer-week-{0}-day-{1}.html", 
                 Convert.ToString(Utils.GetWeekForDay(day.Num)), Convert.ToString(day.Num));
         }
+
+        public static string GetFullyQualifiedExerciseName(SetType setType, string exerciseName)
+        {
+            switch (setType)
+            { 
+                case SetType.Normal:
+                default:
+                    return exerciseName;
+                case SetType.Superset1:
+                    return "(S1) " + exerciseName;
+                case SetType.Superset2:
+                    return "(S2) " + exerciseName;
+                case SetType.Giant1:
+                    return "(G1) " + exerciseName;
+                case SetType.Giant2:
+                    return "(G2) " + exerciseName;
+                case SetType.Giant3:
+                    return "(G3) " + exerciseName;
+            }
+        }
     }
 
 }
