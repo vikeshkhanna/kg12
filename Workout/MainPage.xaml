@@ -88,9 +88,9 @@
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
 
-                    <TextBox Grid.Row="0" x:Name="SearchTextBox" TextChanged="SearchTextBox_TextChanged" />
-                    
-                    <ListBox Grid.Row="1" Margin="0,0,-12,0" ItemsSource="{Binding Exercises}">
+                    <TextBox Grid.Row="0" x:Name="SearchTextBox" KeyUp="SearchTextBox_KeyUp"  InputScope="Search" />
+
+                    <ListBox Grid.Row="1" x:Name="ExercisesListBox" Margin="0,0,-12,0" ItemsSource="{Binding Exercises}" SelectionChanged="ExercisesListBox_SelectionChanged">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <Grid Margin="0,10,0,10" Background="{StaticResource TransparentBlackBrush}"
@@ -124,7 +124,7 @@
                     
                     <phone:WebBrowser Grid.Row="0" x:Name="webBrowserControl" 
                                       Navigating="webBrowserControl_Navigating"
-                                      IsScriptEnabled="True">
+                                      IsScriptEnabled="True" Opacity="0.7"> 
 
                     </phone:WebBrowser>
                 </Grid>
@@ -135,7 +135,7 @@
 
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" Mode="Minimized" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="settings" Click="settingsButton_Click" />
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.feature.settings.rest.png" Text="settings" Click="settingsButton_Click" />
             <shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem Text="open today in browser"/>
             </shell:ApplicationBar.MenuItems>
