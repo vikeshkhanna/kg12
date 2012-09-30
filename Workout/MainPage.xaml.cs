@@ -46,14 +46,10 @@ namespace Workout
 
         private void webBrowserControl_Navigating(object sender, NavigatingEventArgs e)
         {
-            MediaPlayerLauncher mediaPlayerLauncher = new MediaPlayerLauncher();
-
-            mediaPlayerLauncher.Media = e.Uri;
-            mediaPlayerLauncher.Location = MediaLocationType.Data;
-            mediaPlayerLauncher.Controls = MediaPlaybackControls.Pause | MediaPlaybackControls.Stop;
-            mediaPlayerLauncher.Orientation = MediaPlayerOrientation.Landscape;
-
-            mediaPlayerLauncher.Show();
+            if (Utils.IsMediaURL(e.Uri.AbsoluteUri))
+            {
+                Utils.LaunchMediaPlayer(e.Uri);
+            }
         }
 
         private void SearchTextBox_KeyUp(object sender, KeyEventArgs e)
@@ -77,7 +73,50 @@ namespace Workout
 
         private void ExercisesListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            try
+            {
+                if (e.AddedItems.Count > 0)
+                {
+                    DBExercise selectedExercise = (e.AddedItems[0] as DBExercise);
+                    string heading = selectedExercise.ExerciseName;
+                    string url = Utils.GetExerciseURL(selectedExercise.ExerciseName);
+                    NavigationService.Navigate(new Uri("/BrowserPage.xaml?heading=" + heading + "&url=" + url, UriKind.Relative));
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("<kg12> Exception " + ex.Message);
+            }
+        }
 
+        private void todayExerciseListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            try
+            {
+                if (e.AddedItems.Count > 0)
+                {
+                    WorkingExercise selectedExercise = (e.AddedItems[0] as WorkingExercise);
+                    string heading = selectedExercise.ExerciseName;
+                    string url = Utils.GetExerciseURL(selectedExercise.ExerciseName);
+                    NavigationService.Navigate(new Uri("/BrowserPage.xaml?heading=" + heading + "&url=" + url, UriKind.Relative));
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("<kg12> Exception " + ex.Message);
+            }
+        }
+
+        private void aboutAppButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openTodayAppButton_Click(object sender, EventArgs e)
+        {
+            string heading = "Today";
+            string url = Utils.GetTodayLink();
+            NavigationService.Navigate(new Uri("/BrowserPage.xaml?heading=" + heading + "&url=" + url, UriKind.Relative));
         }
     }
 }

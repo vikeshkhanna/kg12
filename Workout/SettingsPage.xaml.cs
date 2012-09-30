@@ -56,7 +56,7 @@ namespace Workout
            
             foreach (Day d in daysInDB)
             {
-                int week = (int)Math.Ceiling(d.Num / 7.0);
+                int week = Utils.GetWeekForDay(d.Num);
                 string workout = String.Format("W {0}, D {1} - {2}", Convert.ToString(week), Convert.ToString(d.Num), d.Workout);
                 this.Days.Add(new ListPickerContent() { Workout = workout});
             }

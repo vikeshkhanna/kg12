@@ -10,6 +10,8 @@
     <!--Application Resources-->
     <Application.Resources>
         <local:BooleanToYesNoConverter x:Key="BooleanToYesNoConverter" />
+        <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <local:ReverseBooleanToVisibilityConverter x:Key="ReverseBooleanToVisibilityConverter" />
         <SolidColorBrush x:Key="TransparentBlackBrush" Color="Black" Opacity="0.9" />
     </Application.Resources>
 

@@ -13,6 +13,7 @@ using System.IO.IsolatedStorage;
 using System.IO;
 using WorkoutHelper;
 using System.Linq;
+using Microsoft.Phone.Tasks;
 
 namespace Workout
 {
@@ -34,5 +35,45 @@ namespace Workout
 
             return day;
         }
+
+        public static string GetExerciseURL(string name)
+        {
+            return "http://www.bodybuilding.com/exercises/main/popup/name/" + name.ToLower().Replace(" ", "-").Replace("(", "").Replace(")", "");
+        }
+
+        public static int GetWeekForDay(int num)
+        {
+            return (int)Math.Ceiling(num / 7.0);
+        }
+
+        public static void LaunchMediaPlayer(Uri uri)
+        {
+            MediaPlayerLauncher mediaPlayerLauncher = new MediaPlayerLauncher();
+
+            mediaPlayerLauncher.Media = uri;
+            mediaPlayerLauncher.Location = MediaLocationType.Data;
+            mediaPlayerLauncher.Controls = MediaPlaybackControls.Pause | MediaPlaybackControls.Stop;
+            mediaPlayerLauncher.Orientation = MediaPlayerOrientation.Landscape;
+
+            mediaPlayerLauncher.Show();
+        }
+
+        public static bool IsMediaURL(string url)
+        {
+            if (url.EndsWith(".mp4"))
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public static string GetTodayLink()
+        {
+            Day day = GetCurrentDay();
+            return String.Format("http://www.bodybuilding.com/fun/kris-gethin-12-week-daily-trainer-week-{0}-day-{1}.html", 
+                Convert.ToString(Utils.GetWeekForDay(day.Num)), Convert.ToString(day.Num));
+        }
     }
+
 }

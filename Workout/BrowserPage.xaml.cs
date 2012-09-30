@@ -17,11 +17,27 @@ namespace Workout
     public partial class BrowserPage : PhoneApplicationPage, INotifyPropertyChanged
     {
         private string heading;
-
+       
         public BrowserPage()
         {
             InitializeComponent();
             this.DataContext = this;
+        }
+
+        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        {
+             base.OnNavigatedTo(e);
+             string h, url;
+
+             if (NavigationContext.QueryString.TryGetValue("heading", out h))
+             {
+                 this.Heading = h;
+             }
+
+             if (NavigationContext.QueryString.TryGetValue("url", out url))
+             {
+                 this.webBrowserControl.Navigate(new Uri(url));
+             }
         }
 
         public string Heading
@@ -52,5 +68,12 @@ namespace Workout
         }
         #endregion
 
+        private void webBrowserControl_Navigating(object sender, NavigatingEventArgs e)
+        {
+            if (Utils.IsMediaURL(e.Uri.AbsoluteUri))
+            {
+                Utils.LaunchMediaPlayer(e.Uri);
+            }
+        }
     }
 }

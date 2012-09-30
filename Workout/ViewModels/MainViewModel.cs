@@ -132,6 +132,15 @@ namespace Workout
             }
         }
 
+        public string CurrentDay
+        {
+            get
+            {
+                Day day = Utils.GetCurrentDay();
+                return String.Format("Week {0}, Day {1}", Convert.ToString(Utils.GetWeekForDay(day.Num)), Convert.ToString(day.Num)); 
+            }
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
         private void NotifyPropertyChanged(String propertyName)
         {
