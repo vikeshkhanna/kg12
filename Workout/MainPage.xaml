@@ -19,11 +19,7 @@
     <Grid x:Name="LayoutRoot" Background="Transparent">
  
         <!--Panorama control-->
-        <controls:Panorama Title="kris gethin's 12 week">
-            <controls:Panorama.Background>
-                <ImageBrush ImageSource="Images/bane.jpg"/>
-            </controls:Panorama.Background>
-
+        <controls:Panorama Title="kris gethin's 12 week" Background="{Binding BackgroundImage}">
             <controls:PanoramaItem Header="status">
                 <Grid Background="{StaticResource TransparentBlackBrush}">
                     <Grid.RowDefinitions>
@@ -66,14 +62,14 @@
                              SelectionChanged="todayExerciseListBox_SelectionChanged">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Grid Margin="0,15,0, 15" Background="{StaticResource TransparentBlackBrush}">
+                                <Grid Margin="0,15,10, 15" Background="{StaticResource TransparentBlackBrush}">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"></RowDefinition>
                                         <RowDefinition Height="Auto"></RowDefinition>
                                     </Grid.RowDefinitions>
-                                    <TextBlock Grid.Row="0" Text="{Binding ExerciseName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
+                                    <TextBlock Margin="15,10,0,0" Grid.Row="0" Text="{Binding ExerciseName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
 
-                                    <StackPanel Grid.Row="1" Orientation="Horizontal" Width="432" VerticalAlignment="Top">
+                                    <StackPanel Margin="0,5,0,15" Grid.Row="1" Orientation="Horizontal" Width="432" VerticalAlignment="Top">
                                         <Image Height="53" Width="53" Source="{Binding WorkoutImage1}" Margin="10,0,5,0" VerticalAlignment="Top" />
                                         <Image Height="53" Width="53" Source="{Binding WorkoutImage2}" Margin="0,0,3,0" VerticalAlignment="Top" />
                                         
@@ -103,7 +99,7 @@
                              SelectionChanged="ExercisesListBox_SelectionChanged">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <Grid Margin="0,10,0,10" Background="{StaticResource TransparentBlackBrush}"
+                                <Grid Margin="0,10,10,10" Background="{StaticResource TransparentBlackBrush}"
                                   Width="432">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto" />

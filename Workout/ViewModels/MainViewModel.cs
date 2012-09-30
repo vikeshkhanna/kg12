@@ -21,6 +21,7 @@ namespace Workout
     {
         private WorkoutContext workoutDB;
         private string workout;
+        private ImageBrush backgroundImageBrush;
 
         public MainViewModel()
         {
@@ -72,6 +73,23 @@ namespace Workout
                     _sampleProperty = value;
                     NotifyPropertyChanged("SampleProperty");
                 }
+            }
+        }
+
+        public ImageBrush BackgroundImage
+        {
+            get
+            {
+                if (this.backgroundImageBrush == null)
+                {
+                    int MAX_IMAGES = 2;
+                    Random random = new Random();
+                    int imgNum = random.Next(1, MAX_IMAGES + 1);
+                    this.backgroundImageBrush = new ImageBrush();
+                    this.backgroundImageBrush.ImageSource = new BitmapImage(new Uri("/Images/bg" + imgNum +".jpg", UriKind.Relative));
+                }
+
+                return this.backgroundImageBrush;
             }
         }
 
