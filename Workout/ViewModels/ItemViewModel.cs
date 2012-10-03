@@ -19,6 +19,7 @@ namespace Workout
 {
     public class WorkingExercise : INotifyPropertyChanged
     {
+        private string fullyQualifiedExerciseName;
         private string exerciseName;
         private string exerciseDescription;
         private string workoutImage1;
@@ -92,6 +93,22 @@ namespace Workout
                 {
                     this.workoutImage2 = value;
                     NotifyPropertyChanged("WorkoutImage2");
+                }
+            }
+        }
+
+        public string FullyQualifiedExerciseName
+        {
+            get
+            {
+                return this.fullyQualifiedExerciseName;
+            }
+            set
+            {
+                if (this.fullyQualifiedExerciseName != value)
+                {
+                    this.fullyQualifiedExerciseName = value;
+                    NotifyPropertyChanged("FullyQualifiedExerciseName");
                 }
             }
         }

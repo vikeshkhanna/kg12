@@ -19,42 +19,60 @@ namespace Workout
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        private WorkoutContext workoutDB;
         private string workout;
         private ImageBrush backgroundImageBrush;
+        private ObservableCollection<WorkingExercise> items;
+        private ObservableCollection<DBExercise> exercises;
 
         public MainViewModel()
         {
-            this.workoutDB = App.WorkoutDB;
-            this.Items = new ObservableCollection<WorkingExercise>();
-            this.AllDBExercises = new List<DBExercise>();
-
-            // Load all exercises
-            List<Exercise> allExercises = (from Exercise e in App.WorkoutDB.Exercises
-                              select e).ToList();
-
-            foreach (Exercise exercise in allExercises)
-            {
-                DBExercise ex = new DBExercise()
-                {
-                    ExerciseName = exercise.Name,
-                    WorkoutImage = "Media/" + Utils.GetImage(exercise, 0)
-                };
-
-                this.AllDBExercises.Add(ex);
-            }
-            
-            this.AllDBExercises = this.AllDBExercises.OrderBy(e => e.ExerciseName).ToList();
-            this.Exercises = new ObservableCollection<DBExercise>(this.AllDBExercises);
         }
 
         /// <summary>
         /// A collection for ItemViewModel objects.
         /// </summary>
-        public ObservableCollection<WorkingExercise> Items { get; private set; }
-        public ObservableCollection<DBExercise> Exercises { get; private set; }
-        public List<DBExercise> AllDBExercises;
-       
+        public ObservableCollection<DBExercise> Exercises 
+        { 
+            get
+            {
+                if(this.exercises == null)
+                {
+                         this.exercises= new ObservableCollection<DBExercise>(App.AllDBExercises); //Shallow copy intended. We don't want this list to change cache data
+                }
+
+                return this.exercises;
+            }
+            private set
+            {
+                if (this.exercises != value)
+                {
+                    this.exercises = value;
+                    NotifyPropertyChanged("Exercises");
+                }
+            }
+        }
+
+        public ObservableCollection<WorkingExercise> Items
+        {
+            get
+            {
+                if (this.items == null)
+                {
+                    this.items = new ObservableCollection<WorkingExercise>();
+                }
+
+                return this.items;
+            }
+            set
+            {
+                if (this.items != value)
+                {
+                    this.items = value;
+                    NotifyPropertyChanged("Items");
+                }
+            }
+        }
+
         private string _sampleProperty = "Sample Runtime Property Value";
         /// <summary>
         /// Sample ViewModel property; this property is used in the view to display its value using a Binding
@@ -122,22 +140,20 @@ namespace Workout
         {
             this.Items.Clear();
             Day day = Utils.GetCurrentDay();
-
-            List<DayExercise> dayExercises = (from DayExercise de in this.workoutDB.DayExercises
-                                              where de.DayId == day.DayId
-                                              select de).ToList();
+            List<DayExercise> dayExercises = App.AllDayExercises.Where(de => de.DayId == day.DayId).ToList();
 
             this.Workout = day.Workout;
 
             foreach(DayExercise dayExercise in dayExercises)
             {
-                Exercise exercise = this.workoutDB.Exercises.Single(ex => ex.ExerciseId == dayExercise.ExerciseId);
+                Exercise exercise = App.AllExercises.Single(ex => ex.ExerciseId == dayExercise.ExerciseId);
                 string fullExerciseName = Utils.GetFullyQualifiedExerciseName(dayExercise.ExerciseSetType, exercise.Name);
 
                 this.Items.Add(new WorkingExercise() {
                     WorkoutImage1 = "Media/" + Utils.GetImage(exercise, 0),
                     WorkoutImage2 = "Media/" + Utils.GetImage(exercise, 1), 
-                    ExerciseName = fullExerciseName, ExerciseDescription = dayExercise.Description});
+                    ExerciseName = exercise.Name, FullyQualifiedExerciseName=fullExerciseName,
+                    ExerciseDescription = dayExercise.Description});
                 // Sample data; replace with real data
             }
             

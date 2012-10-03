@@ -31,7 +31,7 @@ namespace Workout
             }
             else if (e.OriginalSource == this.facebookButton)
             {
-                wbt.Uri = new Uri("http://facebook.com.vikeshkhanna");
+                wbt.Uri = new Uri("http://facebook.com/vikeshkhanna");
             }
             else if(e.OriginalSource == this.quoraButton)
             {

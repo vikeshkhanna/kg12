@@ -65,7 +65,7 @@
                                         <RowDefinition Height="Auto"></RowDefinition>
                                         <RowDefinition Height="Auto"></RowDefinition>
                                     </Grid.RowDefinitions>
-                                    <TextBlock Margin="15,10,0,0" Grid.Row="0" Text="{Binding ExerciseName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
+                                    <TextBlock Margin="15,10,0,0" Grid.Row="0" Text="{Binding FullyQualifiedExerciseName}" TextWrapping="Wrap" Style="{StaticResource PhoneTextTitle3Style}"/>
 
                                     <StackPanel Margin="0,5,0,15" Grid.Row="1" Orientation="Horizontal" Width="432" VerticalAlignment="Top">
                                         <Image Height="53" Width="53" Source="{Binding WorkoutImage1}" Margin="10,0,5,0" VerticalAlignment="Top" />
@@ -126,11 +126,9 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    
-                    <phone:WebBrowser Grid.Row="0" x:Name="webBrowserControl" 
-                                      Navigating="webBrowserControl_Navigating"
-                                      IsScriptEnabled="True" Opacity="0.7"> 
-
+                    <phone:WebBrowser IsScriptEnabled="True" x:Name="webBrowserControl"
+                                      MaxHeight="375" Grid.Row="0" Navigating="webBrowserControl_Navigating">
+                        
                     </phone:WebBrowser>
                 </Grid>
             

@@ -17,6 +17,7 @@ using System.Globalization;
 using System.Windows.Media.Imaging;
 using WorkoutHelper;
 using System.IO.IsolatedStorage;
+using System.Collections.ObjectModel;
 
 namespace Workout
 {
@@ -28,6 +29,10 @@ namespace Workout
         private static DateTime programStartDate;
         private static IsolatedStorageSettings userSettings = IsolatedStorageSettings.ApplicationSettings;
 
+        public static List<DayExercise> AllDayExercises {get; private set;}
+        public static List<Exercise> AllExercises { get; private set; }
+        public static ObservableCollection<DBExercise> AllDBExercises { get; private set; }
+        
         /// <summary>
         /// A static ViewModel used by the views to bind against.
         /// </summary>
@@ -147,6 +152,29 @@ namespace Workout
                 App.ProgramStartDate = DateTime.Now;
                 Console.WriteLine("<kg12> Exception : " + ex.Message);
             }
+
+            //Cache Reference DB
+            App.AllDayExercises = (from DayExercise de in App.WorkoutDB.DayExercises
+                                    select de).ToList();
+            App.AllExercises = (from Exercise e in App.WorkoutDB.Exercises
+                                select e).ToList();
+
+
+            App.AllDBExercises = new ObservableCollection<DBExercise>();
+
+            // Load all DB exercises
+            foreach (Exercise exercise in App.AllExercises)
+            {
+                DBExercise ex = new DBExercise()
+                {
+                    ExerciseName = exercise.Name,
+                    WorkoutImage = "Media/" + Utils.GetImage(exercise, 0)
+                };
+
+                App.AllDBExercises.Add(ex);
+            }
+
+            App.AllDBExercises = new ObservableCollection<DBExercise>(App.AllDBExercises.OrderBy(e => e.ExerciseName));
         }
 
         // Code to execute when the application is launching (eg, from Start)

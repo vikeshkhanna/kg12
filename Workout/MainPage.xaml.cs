@@ -31,13 +31,13 @@ namespace Workout
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
+            App.ViewModel.LoadData();
             isVideoFresh = false;
         }
 
         // Load data for the ViewModel Items
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            App.ViewModel.LoadData();
         }
 
         private void settingsButton_Click(object sender, EventArgs e)
@@ -63,7 +63,7 @@ namespace Workout
 
             App.ViewModel.Exercises.Clear();
 
-            foreach (DBExercise exercise in App.ViewModel.AllDBExercises)
+            foreach (DBExercise exercise in App.AllDBExercises)
             {
                 if (exercise.ExerciseName.ToLower().StartsWith(this.SearchTextBox.Text.ToLower()))
                 {
@@ -128,7 +128,7 @@ namespace Workout
                 {
                    //Placeholder for plausible performance improvement in video loading
                     Day day = Utils.GetCurrentDay();
-                    string url = String.Format("<html><head><style>body{{background:black; width:100%; height:100%}}</style></head><body><div style='width:100%;height:100%' class=\"BBCOMVideoEmbed\" data-dimensions=\"1024x768\" data-video-key=\"{0}\" data-autoplay=\"false\" data-thumbnail-url=\"{1}\"><script type=\"text/javascript\" src=\"http://assets.bodybuilding.com/videos/javascript/min/external-video-embed.js\"></script></div></body></html>",
+                    string url = String.Format("<html><head><style>*{{width:1130; height:722px;}}body{{background:black; overflow:hidden;}}</style></head><body><div style='width:100%;height:100%' class=\"BBCOMVideoEmbed\" data-dimensions=\"570*361\" data-video-key=\"{0}\" data-autoplay=\"false\" data-thumbnail-url=\"{1}\"><script type=\"text/javascript\" src=\"http://assets.bodybuilding.com/videos/javascript/min/external-video-embed.js\"></script></div></body></html>",
                         day.VideoKey, day.ThumbnailUrl);
 
                     this.isVideoFresh = true;

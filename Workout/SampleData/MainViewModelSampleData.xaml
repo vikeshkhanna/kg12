@@ -6,11 +6,11 @@
     
     <local:MainViewModel.Items>
         <local:WorkingExercise WorkoutImage1="/Media/cardio_0.jpg" ExerciseName="design one" ExerciseDescription="Maecenas praesent accumsan bibendum" />
-        <local:WorkingExercise ExerciseName="design two" ExerciseDescription="Dictumst eleifend facilisi faucibus" />
-        <local:WorkingExercise  ExerciseName="design three" ExerciseDescription="Habitant inceptos interdum lobortis" />
-        <local:WorkingExercise  ExerciseName="design four" ExerciseDescription="Nascetur pharetra placerat pulvinar" />
-        <local:WorkingExercise  ExerciseName="design five" ExerciseDescription="Sagittis senectus sociosqu suscipit" />
-        <local:WorkingExercise  ExerciseName="design six" ExerciseDescription="Torquent ultrices vehicula volutpat" />
+        <local:WorkingExercise  FullyQualifiedExerciseName="design two" ExerciseDescription="Dictumst eleifend facilisi faucibus" />
+        <local:WorkingExercise  FullyQualifiedExerciseName="design three" ExerciseDescription="Habitant inceptos interdum lobortis" />
+        <local:WorkingExercise  FullyQualifiedExerciseName="design four" ExerciseDescription="Nascetur pharetra placerat pulvinar" />
+        <local:WorkingExercise  FullyQualifiedExerciseName="design five" ExerciseDescription="Sagittis senectus sociosqu suscipit" />
+        <local:WorkingExercise  FullyQualifiedExerciseName="design six" ExerciseDescription="Torquent ultrices vehicula volutpat" />
     </local:MainViewModel.Items>
     
     <local:MainViewModel.Exercises>
